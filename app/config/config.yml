@@ -1,0 +1,31 @@
+imports:
+  - { resource: parameters.yml }
+
+parameters:
+  app.discord_hooks:
+    public:
+      id: 291667362162147329
+      token: %discord_token_public%
+    group:
+      id: 293059480176951317
+      token: %discord_token_group%
+
+framework:
+  secret: %framework_secret%
+
+snc_redis:
+  clients:
+    default:
+      type: predis
+      alias: default
+      dsn: %buffer_dsn%
+      options:
+        read_write_timeout: 0
+
+guzzle:
+  clients:
+    discord:
+      base_url: 'https://discordapp.com/api/webhooks/'
+      options:
+        headers:
+          Content-Type: 'application/json'

@@ -1,0 +1,33 @@
+version: "2"
+services:
+  data:
+    image: debian:8.6
+    container_name: dsta-relay-data
+    hostname: dsta-relay-data
+    volumes:
+      - ./:/var/www/default/
+  buffer:
+    image: redis:3.2
+    container_name: dsta-relay-buffer
+    hostname: dsta-relay-buffer
+    tty: true
+    stdin_open: true
+    restart: always
+    command: redis-server --requirepass ${BUFFER_PASSWORD}
+    ports:
+      - "6379:6379"
+  queue:
+    image: php:7.1-fpm
+    container_name: dsta-relay-queue
+    hostname: dsta-relay-queue
+    tty: true
+    stdin_open: true
+    restart: always
+    command: php /var/www/default/bin/console app:queue
+    depends_on:
+      - data
+      - buffer
+    volumes_from:
+      - data
+    env_file:
+      - .env

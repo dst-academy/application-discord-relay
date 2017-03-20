@@ -1,0 +1,35 @@
+{
+    "name": "dst-academy/infrastructure-discord-relay",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Thomas Deinhamer",
+            "email": "thasmo@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/framework-bundle": "~3.2",
+        "snc/redis-bundle": "~2.0",
+        "predis/predis": "~1.1",
+        "wrep/daemonizable-command": "^2.0",
+        "symfony/validator": "^3.2",
+        "doctrine/annotations": "^1.4",
+        "eightpoints/guzzle-bundle": "^5.3"
+    },
+    "require-dev": {
+        "sensio/generator-bundle": "^3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        },
+        "classmap": [
+            "app/MicroKernel.php"
+        ]
+    },
+    "config": {
+        "platform": {
+            "php": "7.1"
+        }
+    }
+}

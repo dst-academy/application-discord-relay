@@ -1,0 +1,10 @@
+# Dependencies
+/vendor/
+
+# Storage
+/storage/
+
+# Configuration
+/app/config/parameters.yml
+.env
+/docker-compose.override.yml
