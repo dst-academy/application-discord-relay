@@ -1,8 +1,19 @@
 <?php namespace Application\Command;
 
+use Application\Entity\Event\EventInterface;
+use Application\Entity\Message\MessageInterface;
+use Application\Event\Factory\EventFactory;
+use Application\Message\FormatterInterface;
+use Application\Message\TransmitterInterface;
+use InvalidArgumentException;
 use Predis\Client;
+use Psr\Http\Message\ResponseInterface;
+use Symfony\Component\Console\Exception\InvalidArgumentException as ConsoleInvalidArgumentException;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Console\Input\InputInterface;
+use Symfony\Component\DependencyInjection\Exception\InvalidArgumentException as DependencyInjectionInvalidArgumentException;
+use Symfony\Component\DependencyInjection\Exception\ServiceCircularReferenceException;
+use Symfony\Component\DependencyInjection\Exception\ServiceNotFoundException;
 use Wrep\Daemonizable\Command\EndlessContainerAwareCommand;
 
 /**
@@ -24,70 +35,58 @@ class QueueCommand extends EndlessContainerAwareCommand {
 	/**
 	 * @var Client
 	 */
-	protected $buffer;
-
-	/**
-	 * @var
-	 */
 	protected $queue;
 
 	/**
-	 * @var \GuzzleHttp\Client
+	 * @var FormatterInterface
 	 */
-	protected $api;
+	protected $formatter;
 
 	/**
-	 * @var array
+	 * @var TransmitterInterface
 	 */
-	public static $emoji = [
-		'Join Announcement' => 'white_check_mark',
-		'Leave Announcement' => 'negative_squared_cross_mark',
-		'Roll Announcement' => 'game_die',
-		'Skin Announcement' => 'kimono',
-		'Resurrect Announcement' => 'heartpulse',
-		'Death Announcement' => 'skull',
-	];
+	protected $transmitter;
 
 	/**
-	 * @var array
+	 * @var EventFactory
 	 */
-	public static $color = [
-		'Join Announcement' => 1752220, # aqua
-		'Leave Announcement' => 15158332, #red
-		'Roll Announcement' => 10181046, # purple
-		'Skin Announcement' => 15844367, # gold
-		'Resurrect Announcement' => 3066993, # green
-		'Death Announcement' => 10181046, # dark red
-	];
+	protected $factory;
 
 	/**
-	 *
+	 * @const int
 	 */
-	const BUFFER_TIMEOUT = 1;
+	public const TIMEOUT = 0;
 
 	/**
-	 *
+	 * @throws ConsoleInvalidArgumentException
+	 * @throws InvalidArgumentException
 	 */
-	protected function configure() {
+	protected function configure(): void
+	{
 		$this
 			->setName('app:queue')
-			->setDescription('Reads the DST log-buffer and dispatches requests to Discord webhooks.')
+			->setDescription('Reads the log-queue and dispatches requests to API web-hooks.')
 			->setTimeout(0);
 	}
 
 	/**
 	 * @param InputInterface $input
 	 * @param OutputInterface $output
+	 * @throws ServiceCircularReferenceException
+	 * @throws ServiceNotFoundException
+	 * @throws DependencyInjectionInvalidArgumentException
 	 */
-	protected function initialize(InputInterface $input, OutputInterface $output) {
-
+	protected function initialize(InputInterface $input, OutputInterface $output): void
+	{
 		# Get configuration.
 		$this->hooks = $this->getContainer()->getParameter('app.discord_hooks');
-		$this->keys = array_keys($this->hooks);
+		$this->keys = \array_keys($this->hooks);
 
 		# Get services.
-		$this->buffer = $this->queue = $this->getContainer()->get('snc_redis.default');
-		$this->api = $this->getContainer()->get('guzzle.client.discord');
+		$this->factory = $this->getContainer()->get('app.event.factory');
+		$this->queue = $this->getContainer()->get('snc_redis.default');
+		$this->formatter = $this->getContainer()->get('app.message.formatter');
+		$this->transmitter = $this->getContainer()->get('app.message.transmitter');
 	}
 
 	/**
@@ -97,131 +96,82 @@ class QueueCommand extends EndlessContainerAwareCommand {
 	 */
 	protected function execute(InputInterface $input, OutputInterface $output) {
 
-		# Get next buffer entry.
-		if($entry = $this->fetch()) {
+		# Get next queue item.
+		if([$key, $data] = $this->pop($this->keys)) {
 
-			# Get message.
-			[$key, $data] = $entry;
+			# Convert the queue data to an event.
+			$event = $this->convert($data);
 
-			# Process buffer entry.
-			$message = $this->process($data);
+			# Format the event to a message.
+			$message = $this->format($event);
 
-			# Transmit message to Discord.
-			$this->transmit($key, $message);
+			# Transmit message.
+			if(!$this->transmit($key, $message)) {
+
+				# Add message back to the queue.
+				$this->push($key, $data);
+			}
 		}
 	}
 
 	/**
-	 * @return string|null
-	 */
-	private function fetch() {
-		return $this->buffer->blpop($this->keys, self::BUFFER_TIMEOUT);
-	}
-
-	/**
-	 * @param string $data
+	 * @param array $keys
 	 * @return array
 	 */
-	private function process(string $data): array
+	protected function pop(array $keys): array
 	{
-		# Convert data string to generic array.
-		$data = $this->convert($data);
-
-		# Create API-friendly request object.
-		$data = $this->format($data);
-
-		# Return message.
-		return $data;
-	}
-
-	/**
-	 * @param string $data
-	 * @return array
-	 */
-	private function convert(string $data): array
-	{
-		# Decode JSON string.
-		$data = json_decode($data, true);
-
-		# Format message.
-		# https://regex101.com/r/Mrz4TO/4
-		preg_match('/^\[(\d{2}\:\d{2}\:\d{2})\]:[ ](?:\[(.+)\])(?:[ ]\((.+)\))?(?:[ ](.+):)?[ ](.*)$/x', $data['message'], $matches);
-
-		# Create generic log array.
-		$message = [
-			'time' => $matches[1],
-			'event' => $matches[2],
-			'identifier' => $matches[3],
-			'username' => $matches[4],
-			'message' => $matches[5],
-		];
-
-		# Return the generic message array.
-		return $message;
-	}
-
-	/**
-	 * @param array $data
-	 * @return array
-	 */
-	private function format(array $data): array
-	{
-		# Pre-set message array.
-		$message = [
-			'username' => 'Server',
-			'embeds' => [],
-		];
-
-		# Format message according to the event type.
-		if (strpos($data['event'], 'Announcement') !== false) {
-			$message['embeds'][] = [
-				'color' => $this->color($data['event']),
-				'title' => $data['event'] . ' ' . $this->emoji($data['event']),
-				'description' => $data['message'],
-			];
-		} else {
-			$message['username'] = $data['username'];
-			$message['content'] = $data['message'];
-		}
-
-		# Return an API-friendly message array.
-		return $message;
-	}
-
-	/**
-	 * @param string $event
-	 * @return string
-	 */
-	private function emoji(string $event): string
-	{
-		return array_key_exists($event, self::$emoji) ? ':' . self::$emoji[$event] . ':' : '';
-	}
-
-	/**
-	 * @param string $event
-	 * @return string
-	 */
-	private function color(string $event): string
-	{
-		return array_key_exists($event, self::$color) ? self::$color[$event] : 0;
+		return $this->queue->blpop($keys, self::TIMEOUT);
 	}
 
 	/**
 	 * @param string $key
-	 * @param array $message
-	 * @return void
+	 * @param array $data
+	 * @return int
 	 */
-	private function transmit(string $key, array $message) {
+	protected function push(string $key, array $data): int
+	{
+		return $this->queue->lpush($key, $data);
+	}
 
-		# Get web-hook configuration.
+	/**
+	 * @param string $data
+	 * @return EventInterface
+	 */
+	protected function convert(string $data): EventInterface
+	{
+		# Decode JSON string.
+		$data = \json_decode($data);
+
+		# Instantiate event entity.
+		return $this->factory->createFromLogLine($data->message);
+	}
+
+	/**
+	 * @param EventInterface $event
+	 * @return MessageInterface
+	 */
+	protected function format(EventInterface $event): MessageInterface
+	{
+		return $this->formatter->format($event);
+	}
+
+	/**
+	 * @param string $key
+	 * @param MessageInterface $message
+	 * @return ResponseInterface
+	 */
+	protected function transmit(string $key, MessageInterface $message): ResponseInterface
+	{
+		# Get hook configuration.
 		$hook = $this->hooks[$key];
 
-		# Build web-hook endpoint path.
-		$path = $hook['id'] . '/' . $hook['token'];
-
-		# Send request to the Discord API.
-		$this->api->post($path, [
-			'json' => $message,
+		# Define endpoint.
+		$endpoint = \implode('/', [
+			$hook['id'],
+			$hook['token'],
 		]);
+
+		# Transmit message to Discord.
+		return $this->transmitter->transmit($message, $endpoint);
 	}
 }

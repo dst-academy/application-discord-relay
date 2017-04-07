@@ -1,0 +1,19 @@
+services:
+  app.event.parser:
+    class: Application\Event\Parser\ChatLogParser
+  app.event.factory:
+      class: Application\Event\Factory\EventFactory
+      arguments: ['@app.event.parser']
+  app.message.formatter:
+    class: Application\Message\Driver\Discord\Formatter
+    arguments: ['@translator']
+  app.message.transmitter:
+    class: Application\Message\Driver\Discord\Transmitter
+    arguments: ['@csa_guzzle.client.default']
+  app.middleware.rate_limit:
+    class: Concat\Http\Middleware\RateLimiter
+    arguments: ['@app.middleware.rate_limit.provider']
+    tags:
+      - {name: 'csa_guzzle.middleware', alias: 'rate_limit'}
+  app.middleware.rate_limit.provider:
+    class: Application\Middleware\Driver\Discord\RateLimitProvider

@@ -32,7 +32,7 @@ class MicroKernel extends Kernel {
 	public function registerBundles() {
 		$bundles = [
 			new Symfony\Bundle\FrameworkBundle\FrameworkBundle(),
-			new EightPoints\Bundle\GuzzleBundle\GuzzleBundle(),
+			new Csa\Bundle\GuzzleBundle\CsaGuzzleBundle(),
 			new Snc\RedisBundle\SncRedisBundle(),
 			new Application\ApplicationBundle(),
 		];

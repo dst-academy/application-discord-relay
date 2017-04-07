@@ -1,17 +1,20 @@
 imports:
   - { resource: parameters.yml }
+  - { resource: services.yml }
 
 parameters:
   app.discord_hooks:
     public:
-      id: 291667362162147329
+      id: %discord_id_public%
       token: %discord_token_public%
     group:
-      id: 293059480176951317
+      id: %discord_id_group%
       token: %discord_token_group%
 
 framework:
   secret: %framework_secret%
+  translator:
+    fallbacks: [en]
 
 snc_redis:
   clients:
@@ -22,10 +25,13 @@ snc_redis:
       options:
         read_write_timeout: 0
 
-guzzle:
+csa_guzzle:
   clients:
-    discord:
-      base_url: 'https://discordapp.com/api/webhooks/'
-      options:
-        headers:
-          Content-Type: 'application/json'
+    default:
+      lazy: true
+      config:
+        base_uri: 'https://discordapp.com/api/webhooks/'
+        options:
+          headers:
+            Content-Type: 'application/json'
+      middleware: ['rate_limit']

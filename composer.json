@@ -14,7 +14,9 @@
         "wrep/daemonizable-command": "^2.0",
         "symfony/validator": "^3.2",
         "doctrine/annotations": "^1.4",
-        "eightpoints/guzzle-bundle": "^5.3"
+        "rtheunissen/guzzle-rate-limiter": "^1.0",
+        "roave/security-advisories": "dev-master",
+        "csa/guzzle-bundle": "^2.2"
     },
     "require-dev": {
         "sensio/generator-bundle": "^3.1"
