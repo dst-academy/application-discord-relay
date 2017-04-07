@@ -2,8 +2,8 @@ services:
   app.event.parser:
     class: Application\Event\Parser\ChatLogParser
   app.event.factory:
-      class: Application\Event\Factory\EventFactory
-      arguments: ['@app.event.parser']
+    class: Application\Event\Factory\EventFactory
+    arguments: ['@app.event.parser']
   app.message.formatter:
     class: Application\Message\Driver\Discord\Formatter
     arguments: ['@translator']
