@@ -29,7 +29,7 @@ class MicroKernel extends Kernel {
 	/**
 	 * @return array
 	 */
-	public function registerBundles() {
+	public function registerBundles(): array {
 		$bundles = [
 			new Symfony\Bundle\FrameworkBundle\FrameworkBundle(),
 			new Csa\Bundle\GuzzleBundle\CsaGuzzleBundle(),
