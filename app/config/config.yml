@@ -4,10 +4,10 @@ imports:
 
 parameters:
   app.discord_hooks:
-    public:
+    eu-survival:
       id: %discord_id_public%
       token: %discord_token_public%
-    group:
+    eu-endless:
       id: %discord_id_group%
       token: %discord_token_group%
 
