@@ -1,7 +1,7 @@
 version: "2"
 services:
   data:
-    image: debian:8.6
+    image: debian:9
     container_name: dsta-relay-data
     hostname: dsta-relay-data
     volumes:
