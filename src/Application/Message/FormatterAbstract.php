@@ -68,7 +68,7 @@ abstract class FormatterAbstract implements FormatterInterface
 	{
 		# Substitute parameters.
 		foreach($keys as $key) {
-			$parameters[$key] = $this->translator->trans($parameters[$key], [], static::TRANSLATION_DOMAIN_SKINS);
+			$parameters[$key] = $this->translator->trans($parameters[$key].'.'.$key, [], static::TRANSLATION_DOMAIN_SKINS);
 		}
 
 		return $parameters;

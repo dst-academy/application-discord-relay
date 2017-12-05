@@ -21,7 +21,7 @@ class ChatLogParser extends ParserAbstract
 		'Join Announcement'      => '/^(?<username>.+)$/U', # https://regex101.com/r/wurFQB/1
 		'Leave Announcement'     => '/^(?<username>.+)$/U', # https://regex101.com/r/wurFQB/1
 		'Roll Announcement'      => '/^(?<username>.+)[ ](?<score>\d+)[ ]\((?<minimum>\d+)-(?<maximum>\d+)\)$/U', # https://regex101.com/r/ZVKsMR/3
-		'Skin Announcement'      => '/^(?<username>.+)[ ](?<name>[\w]+)$/U', # https://regex101.com/r/prXTLq/2
+		'Skin Announcement'      => '/^(?<username>.+)[ ](?<name>(?<description>[\w]+))$/U', # https://regex101.com/r/prXTLq/3
 		'Resurrect Announcement' => '/^(?<username>.+) was resurrected by (?<trigger>.+)\.$/U', # https://regex101.com/r/DkG544/2
 		'Death Announcement'     => '/^(?<username>.+) was killed by (?<trigger>.+)\. .+$/U', # https://regex101.com/r/svZNl5/3
 	];
