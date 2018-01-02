@@ -61,10 +61,10 @@ class RateLimitProvider implements RateLimitProviderBase
 	 */
 	public function setRequestAllowance(ResponseInterface $response): void
 	{
-		$requests = $response->getHeader('x-ratelimit-remaining')[0] ?? 0;
+		$requests = (int) ($response->getHeader('x-ratelimit-remaining')[0] ?? 0);
 		$expiration = $response->getHeader('x-ratelimit-reset')[0] ?? 0;
 		$timespan = $expiration - \time();
 
-		self::$requestAllowance = $timespan / $requests;
+		self::$requestAllowance = $requests === 0 ? 0 : $timespan / $requests;
 	}
 }
