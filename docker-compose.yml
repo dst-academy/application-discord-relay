@@ -2,14 +2,10 @@ version: "2"
 services:
   data:
     image: debian:9
-    container_name: dsta-relay-data
-    hostname: dsta-relay-data
     volumes:
       - ./:/var/www/default/
   buffer:
     image: redis:3.2
-    container_name: dsta-relay-buffer
-    hostname: dsta-relay-buffer
     tty: true
     stdin_open: true
     restart: always
@@ -18,8 +14,6 @@ services:
       - "6379:6379"
   queue:
     image: php:7.1-fpm
-    container_name: dsta-relay-queue
-    hostname: dsta-relay-queue
     tty: true
     stdin_open: true
     restart: always
