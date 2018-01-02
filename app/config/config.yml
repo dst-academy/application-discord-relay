@@ -4,12 +4,15 @@ imports:
 
 parameters:
   app.discord_hooks:
-    eu-survival:
-      id: %discord_id_public%
-      token: %discord_token_public%
-    eu-endless:
-      id: %discord_id_group%
-      token: %discord_token_group%
+    survival-eu:
+      id: %discord_id_survival_eu%
+      token: %discord_token_survival_eu%
+    endless-eu:
+      id: %discord_id_endless_eu%
+      token: %discord_token_endless_eu%
+    survival-na:
+      id: %discord_id_survival_na%
+      token: %discord_token_survival_na%
 
 framework:
   secret: %framework_secret%
