@@ -4,9 +4,6 @@
 # Storage
 /storage/
 
-# Configuration
-/app/config/parameters.yml
-
 # Infrastructure
 /docker-compose.override.yml
 .env

@@ -1,0 +1,9 @@
+parameters:
+  framework_secret: %env(SYMFONY_FRAMEWORK_SECRET)%
+  discord_id_survival_eu: %env(DISCORD_ID_SURVIVAL_EU)%
+  discord_token_survival_eu: %env(DISCORD_TOKEN_SURVIVAL_EU)%
+  discord_id_endless_eu: %env(DISCORD_ID_SURVIVAL_EU)%
+  discord_token_endless_eu: %env(DISCORD_TOKEN_SURVIVAL_EU)%
+  discord_id_survival_na: %env(DISCORD_ID_SURVIVAL_NA)%
+  discord_token_survival_na: %env(DISCORD_TOKEN_SURVIVAL_NA)%
+  buffer_dsn: redis://%env(BUFFER_PASSWORD)%@%env(BUFFER_HOST)%
