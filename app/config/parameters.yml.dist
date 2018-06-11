@@ -1,7 +1,0 @@
-parameters:
-  framework_secret: %env(SYMFONY_FRAMEWORK_SECRET)%
-  discord_id_public: %env(DISCORD_ID_PUBLIC)%
-  discord_id_group: %env(DISCORD_ID_GROUP)%
-  discord_token_public: %env(DISCORD_TOKEN_PUBLIC)%
-  discord_token_group: %env(DISCORD_TOKEN_GROUP)%
-  buffer_dsn: redis://%env(BUFFER_PASSWORD)%@%env(BUFFER_HOST)%

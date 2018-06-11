@@ -1,37 +1,68 @@
 {
-    "name": "dst-academy/infrastructure-discord-relay",
+    "type": "project",
     "license": "MIT",
-    "authors": [
-        {
-            "name": "Thomas Deinhamer",
-            "email": "thasmo@gmail.com"
-        }
-    ],
     "require": {
-        "symfony/framework-bundle": "~3.2",
-        "snc/redis-bundle": "~2.0",
-        "predis/predis": "~1.1",
-        "wrep/daemonizable-command": "^2.0",
-        "symfony/validator": "^3.2",
-        "doctrine/annotations": "^1.4",
+        "php": "^7.1.3",
+        "ext-ctype": "*",
+        "ext-iconv": "*",
+        "csa/guzzle-bundle": "^3.0",
+        "predis/predis": "^1.1",
         "rtheunissen/guzzle-rate-limiter": "^1.0",
-        "roave/security-advisories": "dev-master",
-        "csa/guzzle-bundle": "^2.2"
+        "snc/redis-bundle": "^2.1",
+        "symfony/console": "^4.1",
+        "symfony/flex": "^1.0",
+        "symfony/framework-bundle": "^4.1",
+        "symfony/lts": "^4@dev",
+        "symfony/property-access": "^4.1",
+        "symfony/serializer": "^4.1",
+        "symfony/translation": "^4.1",
+        "symfony/yaml": "^4.1",
+        "wrep/daemonizable-command": "^2.1"
     },
     "require-dev": {
-        "sensio/generator-bundle": "^3.1"
+        "symfony/dotenv": "^4.1",
+        "symfony/maker-bundle": "^1.5"
+    },
+    "config": {
+        "preferred-install": {
+            "*": "dist"
+        },
+        "sort-packages": true
     },
     "autoload": {
         "psr-4": {
-            "": "src/"
+            "App\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "App\\Tests\\": "tests/"
+        }
+    },
+    "replace": {
+        "symfony/polyfill-ctype": "*",
+        "symfony/polyfill-iconv": "*",
+        "symfony/polyfill-php71": "*",
+        "symfony/polyfill-php70": "*",
+        "symfony/polyfill-php56": "*"
+    },
+    "scripts": {
+        "auto-scripts": {
+            "cache:clear": "symfony-cmd"
         },
-        "classmap": [
-            "app/MicroKernel.php"
+        "post-install-cmd": [
+            "@auto-scripts"
+        ],
+        "post-update-cmd": [
+            "@auto-scripts"
         ]
     },
-    "config": {
-        "platform": {
-            "php": "7.1"
+    "conflict": {
+        "symfony/symfony": "*"
+    },
+    "extra": {
+        "symfony": {
+            "allow-contrib": false
         }
     }
 }

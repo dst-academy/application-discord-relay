@@ -1,0 +1,8 @@
+say: '%message%'
+whisper: '%message%'
+die: '_was killed by **%inflictor%**._ :ghost:'
+join: '_joined._ :loudspeaker:'
+leave: '_left._ :loudspeaker:'
+roll: '_rolled a dice for **%score%** of **%minimum%-%maximum%**._ :game_die:'
+resurrect: '_was resurrected by **%trigger%**._ :heartpulse:'
+open: '_unpacked **%name%**._ :package: `%description%`'

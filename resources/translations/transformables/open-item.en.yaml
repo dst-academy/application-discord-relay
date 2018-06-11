@@ -1,0 +1,1629 @@
+amulet_red_occulteye:
+    name: "Clairvoyant Life Amulet"
+    description: "This Life Giving Amulet was crafted in Battlemaster Pugna's Forge."
+armor_dragonfly_fangedcollar:
+    name: "Jagged Dragonfly Armor"
+    description: "This look is inspired by the visage of the mighty beast from which it's made."
+armor_dragonfly_haramaki:
+    name: "Dragonfly Haramaki"
+    description: "Flawlessly polished Dragonfly scales compose this Haramaki, accented with a yellow silken sash."
+armor_dragonfly_lamellar:
+    name: "Dragonfly Body Armor"
+    description: "Running your hand down this armor is smooth one way and sharp the other."
+armor_grass_cloak:
+    name: "Feathered Grass Armor"
+    description: "This delicately woven cloak is an excellent decorative piece."
+armor_grass_woven:
+    name: "Woven Grass Armor"
+    description: "Extra care and craftsmanship was put into weaving this grass armor."
+armor_marble_chainmail:
+    name: "Marble Splint Mail"
+    description: "This splint mail is crafted of many marble slabs chained together."
+armor_marble_rockabs:
+    name: "Marble Plate Armor"
+    description: "This armor is the fastest way there is to get chiseled abs."
+armor_wood_fangedcollar:
+    name: "Jagged Wood Armor"
+    description: "The fangs are purely decorative. They're not even real!"
+armor_wood_haramaki:
+    name: "Silken Wood Armor"
+    description: "This silken wood armor provides no additional protection, but at least it stops the splinters."
+armor_wood_lamellar:
+    name: "Wood Armor"
+    description: "This wood armor is a fresh decorative take on a timeless functional design."
+backpack_basic_blue_catcoon:
+    name: "Backpack"
+    description: "Carry your stuff in a 'catcoon blue' colored backpack."
+backpack_basic_green_olive:
+    name: "Backpack"
+    description: "Carry your stuff in a 'forever green' colored backpack."
+backpack_bat:
+    name: "Back Bat"
+    description: "Behold, a batty black bat-shaped backpack. Bat."
+backpack_beefalo:
+    name: "Beefalo Carryall"
+    description: "A backpack made in the shape of a little beefalo. It's so cute and fluffy!"
+backpack_buckle_grey_pewter:
+    name: "Buckled Backpack"
+    description: "A 'dismal gray' colored backpack with a big, curved buckle."
+backpack_buckle_navy_phthalo:
+    name: "Buckled Backpack"
+    description: "A 'monastral blue' colored backpack with a big, curved buckle."
+backpack_buckle_red_rook:
+    name: "Buckled Backpack"
+    description: "A 'rook red' colored backpack with a big, curved buckle."
+backpack_camping_green_viridian:
+    name: "Rucksack"
+    description: "A rustic rucksack in a 'subaqueous megafauna green' color."
+backpack_camping_orange_carrot:
+    name: "Rucksack"
+    description: "A rustic rucksack in a 'carrot orange' color."
+backpack_camping_red_koalefant:
+    name: "Rucksack"
+    description: "A rustic rucksack in a 'koalefant trunk red' color."
+backpack_catcoon:
+    name: "Catcoon Carryall"
+    description: "Squirrel away your items with this catcoon-shaped carryall."
+backpack_crab:
+    name: "Crabpack"
+    description: "Watch out, this snappy backpack can get a little snippy!"
+backpack_deerclops:
+    name: "Deerclops Duffel"
+    description: "A backpack shaped like Deerclops. It's surprisingly cute!"
+backpack_dragonfly_fire:
+    name: "Scorching Satchel"
+    description: "Dragon flier burning bright, in the desert quite a sight. What equipment is required to quench thy fearsome scorching fires?"
+backpack_glommer:
+    name: "Glommer Pack"
+    description: "This pack is shaped like a friend."
+backpack_mandrake:
+    name: "Meepsack"
+    description: "Keep this lil guy quiet by shoving some delicious loot in his mouth!"
+backpack_mushy:
+    name: "Moldy Backpack"
+    description: "A backpack which has grown moldy from disuse."
+backpack_poop:
+    name: "Poop Pouch"
+    description: "A bag shaped like feces. Obviously it was designed by somebody who enjoys sophomoric humor."
+backpack_rabbit:
+    name: "Rabbit Rucksack"
+    description: "Go down the rabbit hole with this rabbit-shaped backpack."
+backpack_smallbird:
+    name: "Smallbird Satchel"
+    description: "This smallbird won't ever grow up and reject you like a real smallbird would."
+backpack_spider:
+    name: "Spider Sack"
+    description: "Wearing this backpack will let you make an arachnophobe's day a little bit worse. Or, you could ask yourself 'What would Willow do?' and burn it! Burn it with fire!"
+bedroll_furry_quilt_blue_frost:
+    name: "Patchwork Quilt"
+    description: "Nothing says 'bedtime' quite like a bunch of little fabric squares sewn into one bigger, 'high elevation blue' fabric square."
+bedroll_furry_quilt_white_ivory:
+    name: "Patchwork Quilt"
+    description: "Nothing says 'bedtime' quite like a bunch of little fabric squares sewn into one bigger, 'houndbone white' fabric square."
+birdcage_gothic:
+    name: "Macabre Birdcage"
+    description: "Trap birds in a prison of their own making."
+birdcage_ornamental:
+    name: "Ornamental Birdcage"
+    description: "Imprison a bird in a wreath of seasonal cheer."
+birdcage_pirate:
+    name: "Pirate Birdcage"
+    description: "The birds' swashbuckling days are over, thanks to this pirate-themed birdcage."
+body_buttons_black_jet:
+    name: "Buttoned Shirt"
+    description: "A shirt that buttons up the front, in a 'disilluminated black' color. Luckily for you, the fabric is a non-iron material. Unfortunately, the placket will still wrinkle as you wear it."
+body_buttons_blue_sky:
+    name: "Buttoned Shirt"
+    description: "A shirt that buttons up the front, in a 'schematic blue' color. Luckily for you, the fabric is a non-iron material. Unfortunately, the placket will still wrinkle as you wear it."
+body_buttons_green_laurel:
+    name: "Buttoned Shirt"
+    description: "A shirt that buttons up the front, in a 'willful green' color. Luckily for you, the fabric is a non-iron material. Unfortunately, the placket will still wrinkle as you wear it."
+body_buttons_pink_hibiscus:
+    name: "Buttoned Shirt"
+    description: "A shirt that buttons up the front, in a 'pigman pink' color. Luckily for you, the fabric is a non-iron material. Unfortunately, the placket will still wrinkle as you wear it."
+body_buttons_white_ghost:
+    name: "Buttoned Shirt"
+    description: "A shirt that buttons up the front, in a 'ghost white' color. Luckily for you, the fabric is a non-iron material. Unfortunately, the placket will still wrinkle as you wear it."
+body_cardigan_black_jet:
+    name: "Cardigan"
+    description: "A 'disilluminated black' colored cardigan. As soft as it is comfortable."
+body_cardigan_red_cardinal:
+    name: "Cardigan"
+    description: "A 'combobulated red' colored cardigan. As soft as it is comfortable."
+body_cardigan_teal_jade:
+    name: "Cardigan"
+    description: "A 'doydoy teal' colored cardigan. As soft as it is comfortable."
+body_cardigan_white_ghost:
+    name: "Cardigan"
+    description: "A 'ghost white' colored cardigan. As soft as it is comfortable."
+body_catcoon_costume:
+    name: "Catty Costume"
+    description: "This Catty Costume will make you look like one fine feline!"
+body_chester_costume:
+    name: "Cheeky Chester Costume"
+    description: "Don't worry, that's faux-Chester fur."
+body_coatdress_red_higgsbury:
+    name: "Dainty Coatdress"
+    description: "A cute and snuggly coat dress in 'Higgsbury red'."
+body_dancer_dragon:
+    name: "Lucky Beast Outfit"
+    description: "All ready for a spectacular performance!"
+body_dancer_lion:
+    name: "Lucky Beast Attire"
+    description: "The perfect outfit for a dance or two."
+body_dress_flouncy_tan_cream:
+    name: "Flouncy Dress"
+    description: "Flouncy, bouncy, and so much fun!"
+body_dress_yachtsuit_white_pure:
+    name: "Yachtsuit Dress"
+    description: "'Yacht not included.'"
+body_expo_letterman_yellow_beige:
+    name: "Letterman Jacket"
+    description: "Run from ghosts and eat copious amounts in style in this slick Letterman Jacket!"
+body_expo_sweater_blue_agean:
+    name: "Smart Sweater"
+    description: "Donning this Smart Sweater impels the wearer to burgeon a broad, patrician lexicon."
+body_flannel_blue_snowbird:
+    name: "Lumberjack Shirt"
+    description: "Well, it's not buckskin but it's still skookum. It's 'electrolytic blue' colored with no foofaraw."
+body_flannel_green_napier:
+    name: "Lumberjack Shirt"
+    description: "Well, it's not buckskin but it's still skookum. It's 'being uneasy green' colored with no foofaraw."
+body_flannel_orange_lumberjack:
+    name: "Lumberjack Shirt"
+    description: "Well, it's not buckskin but it's still skookum. It's 'lumberjack orange' colored with no foofaraw."
+body_flannel_purple_grape:
+    name: "Lumberjack Shirt"
+    description: "Well, it's not buckskin but it's still skookum. It's 'tentacle purple' colored with no foofaraw."
+body_glommer_costume:
+    name: "Glommy Guise"
+    description: "Cover up your full moon with this adorable Glommy Guise!"
+body_hutch_costume:
+    name: "Hutch Disguise"
+    description: "The perfect look for going underground and undercover."
+body_jacket_shearling_orange_salmon:
+    name: "Shearling Coat"
+    description: "The floofy collar of this 'fishy tincture orange' coat won't keep you any warmer, but it looks incredible!"
+body_jacket_toggle_navy_phthalo:
+    name: "Toggle Jacket"
+    description: "This is one of those jackets where the pockets are just decorative. Oh well, at least it looks nice."
+body_outerwear_quilted_red_cardinal:
+    name: "Quilted Outerwear"
+    description: "A majestic quilted outfit with just the right amount of poofiness."
+body_overalls_black_scribble:
+    name: "Overalls"
+    description: "These sturdy 'scribble black' colored overalls are great for plumbing the depths."
+body_overalls_blue_denim:
+    name: "Overalls"
+    description: "These sturdy 'hyper-intelligent blue' colored overalls are great for plumbing the depths."
+body_overalls_navy_ocean:
+    name: "Overalls"
+    description: "These sturdy 'unsuitably blue' colored overalls are great for plumbing the depths."
+body_pj_blue_agean:
+    name: "Jammie Shirt"
+    description: "Don't worry if this 'high pH blue' colored pajama top is too big on you. That just makes it cuter."
+body_pj_purple_mauve:
+    name: "Jammie Shirt"
+    description: "Don't worry if this 'snail mucus purple' colored pajama top is too big on you. That just makes it cuter."
+body_pj_silk_teal_jade:
+    name: "Silk Pajamas"
+    description: "Luxurious PJs in a handsome 'doydoy teal'."
+body_polo_blue_denim:
+    name: "Collared Shirt"
+    description: "A 'hyper-intelligent blue' colored polo shirt. Don't let your collar flap in the wind."
+body_polo_orange_salmon:
+    name: "Collared Shirt"
+    description: "A 'fishy tincture orange' colored polo shirt. Don't let your collar flap in the wind."
+body_polo_red_higgsbury:
+    name: "Collared Shirt"
+    description: "A 'Higgsbury red' colored polo shirt. Don't let your collar flap in the wind."
+body_polo_white_marble:
+    name: "Collared Shirt"
+    description: "A 'marble white' colored polo shirt. Don't let your collar flap in the wind."
+body_polo_yellow_goldenrod:
+    name: "Collared Shirt"
+    description: "A 'downright neighborly yellow' colored polo shirt. Don't let your collar flap in the wind."
+body_silk_eveningrobe_blue_frost:
+    name: "Silk Robe"
+    description: "So smooth, you'll never want to let go of this 'high elevation blue' colored robe."
+body_silk_eveningrobe_pink_ewecus:
+    name: "Silk Robe"
+    description: "So smooth, you'll never want to let go of this 'ewecus pink' colored robe."
+body_silk_eveningrobe_red_rump:
+    name: "Silk Robe"
+    description: "So smooth, you'll never want to let go of this 'rump red' colored robe."
+body_silk_eveningrobe_yellow_goldenrod:
+    name: "Silk Robe"
+    description: "So smooth, you'll never want to let go of this 'downright neighborly yellow' colored robe."
+body_silk_loungewear_black_davys:
+    name: "Silk Loungewear"
+    description: "Bathe under the new moon in comfort and luxury with this silk 'disilluminated black' colored loungewear."
+body_silk_loungewear_green_laurel:
+    name: "Silk Loungewear"
+    description: "Bathe under the new moon in comfort and luxury with this silk 'willful green' colored loungewear."
+body_silk_loungewear_red_cranberry:
+    name: "Silk Loungewear"
+    description: "Bathe under the new moon in comfort and luxury with this silk 'apidae maxwellius red' colored loungewear."
+body_silk_loungewear_white_marble:
+    name: "Silk Loungewear"
+    description: "Bathe under the new moon in comfort and luxury with this silk 'marble white' colored loungewear."
+body_silkbrocade_coat_green_laurel:
+    name: "Silk Brocade Coat"
+    description: "A silken brocade coat in a lovely 'willful green' shade."
+body_sleepgown_blue_ice:
+    name: "Nightgown"
+    description: "It might look a bit itchy, but this 'anthropomorphic feline blue' nightgown is actually the coziest thing in the world."
+body_sleepgown_purple_lavender:
+    name: "Nightgown"
+    description: "It might look a bit itchy, but this 'peripeteia purple' nightgown is actually the coziest thing in the world."
+body_suspenders_pink_pearl:
+    name: "Suspension Shirt"
+    description: "Wearing this 'pigman pink' colored shirt makes you feel like the cat's pajamas."
+body_suspenders_white_pure:
+    name: "Suspension Shirt"
+    description: "Wearing this 'pure white' colored shirt makes you feel like the cat's pajamas."
+body_suspenders_yellow_flax:
+    name: "Suspension Shirt"
+    description: "Wearing this 'follicle yellow' colored shirt makes you feel like the cat's pajamas."
+body_sweatervest_blue_snowbird:
+    name: "Sweater Vest"
+    description: "An 'electrolytic blue' colored vest made of the finest beefalo wool. Unfortunately, it's not actually warm."
+body_sweatervest_brown_beaver:
+    name: "Sweater Vest"
+    description: "A 'werebeaver brown' colored vest made of the finest beefalo wool. Unfortunately, it's not actually warm."
+body_sweatervest_green_forest:
+    name: "Sweater Vest"
+    description: "A 'forest guardian green' colored vest made of the finest beefalo wool. Unfortunately, it's not actually warm."
+body_sweatervest_grey_silver:
+    name: "Sweater Vest"
+    description: "A 'cumulus gray' colored vest made of the finest beefalo wool. Unfortunately, it's not actually warm."
+body_sweatervest_red_firehound:
+    name: "Sweater Vest"
+    description: "A 'firehound red' colored vest made of the finest beefalo wool. Unfortunately, it's not actually warm."
+body_tanktop_tiecollar_yellow_goldenrod:
+    name: "Sleeveless Blouse"
+    description: "This 'downright neighborly yellow' top just screams 'springtime'! Seriously. Please make it stop screaming."
+body_toga_white_pure:
+    name: "Toga"
+    description: "As they say, 'when in Rome'!"
+body_trenchcoat_brown_fawn:
+    name: "Trench Coat"
+    description: "A fashionable but unprotective trench coat in a 'werebeaver brown' color."
+body_trenchcoat_yellow_straw:
+    name: "Trench Coat"
+    description: "A fashionable but unprotective trench coat in a 'sulfuric yellow' color."
+body_trimmed_blouse_red_higgsbury:
+    name: "Pleated Shirt"
+    description: "Get your glad rags on with this 'Higgsbury red' colored shirt."
+body_trimmed_blouse_white_pure:
+    name: "Pleated Shirt"
+    description: "Get your glad rags on with this 'pure white' colored shirt."
+body_trimmed_blouse_yellow_flax:
+    name: "Pleated Shirt"
+    description: "Get your glad rags on with this 'follicle yellow' colored shirt."
+body_tshirt_grey_battleship:
+    name: "T-Shirt"
+    description: "A 'cumulus gray' colored shirt. Wilson is working on a W-shirt, but this prototype came out more T-shaped."
+body_tshirt_purple_mauve:
+    name: "T-Shirt"
+    description: "A 'snail mucus purple' colored shirt. Wilson is working on a W-shirt, but this prototype came out more T-shaped."
+body_tshirt_red_higgsbury:
+    name: "T-Shirt"
+    description: "A 'Higgsbury red' colored shirt. Wilson is working on a W-shirt, but this prototype came out more T-shaped."
+body_tshirt_white_smoke:
+    name: "T-Shirt"
+    description: "A 'smoke white' colored shirt. Wilson is working on a W-shirt, but this prototype came out more T-shaped."
+body_tweedvest_blue_lightning:
+    name: "Tweed Waistcoat"
+    description: "Don't get lost in the tweeds wearing this 'lightning goat blue' colored souvenir from the Village of Tweed."
+body_tweedvest_brown_chocolate:
+    name: "Tweed Waistcoat"
+    description: "Don't get lost in the tweeds wearing this 'insufficient chocolate brown' colored souvenir from the Village of Tweed."
+body_tweedvest_green_hunters:
+    name: "Tweed Waistcoat"
+    description: "Don't get lost in the tweeds wearing this 'forest guardian green' colored souvenir from the Village of Tweed."
+body_tweedvest_grey_steel:
+    name: "Tweed Waistcoat"
+    description: "Don't get lost in the tweeds wearing this 'colloidal silver gray' colored souvenir from the Village of Tweed."
+body_tweedvest_tan_grass:
+    name: "Tweed Waistcoat"
+    description: "Don't get lost in the tweeds wearing this 'dry grass tan' colored souvenir from the Village of Tweed."
+body_wathgrithr_deerclops:
+    name: "Deerclops Costume Top"
+    description: "Look like an intimidating Deerclops with this Hallowed Nights costume."
+body_wathgrithr_formal:
+    name: "Valkyrie Armor"
+    description: "Be a knight in shining armor. Or at least look like one. (It's just a costume, not real armor.)"
+body_wathgrithr_gladiator:
+    name: "Battlemaster's Chestplate"
+    description: "This decorative battle armor is sure to strike fear into the foes of the Valkyrie."
+body_wathgrithr_shadow:
+    name: "Shadow Armor"
+    description: "Dark armor. It looks nice, but unfortunately shadows have no substance."
+body_wathgrithr_survivor:
+    name: "Torn Costume"
+    description: "This costume looks a little the worse for wear, but the performance must go on."
+body_waxwell_formal:
+    name: "Striking Tuxedo"
+    description: "The delightful aroma of mothballs and decay wafts off it."
+body_waxwell_gladiator:
+    name: "Alchemist's Robe Top"
+    description: "Brew alchemical mixtures in style with this alchemist's robe top."
+body_waxwell_krampus:
+    name: "Krampus Costume Top"
+    description: "Dress up as a spooky Krampus for Hallowed Nights."
+body_waxwell_survivor:
+    name: "Frayed Finery"
+    description: "A tragic end to a once-dapper three piece suit."
+body_waxwell_unshadow:
+    name: "Unshadow Suit"
+    description: "This look hearkens back to a simpler time. You are missed, Charlie."
+body_webber_bat:
+    name: "Batilisk Costume Top"
+    description: "Look the part of a spooky Batilisk."
+body_webber_formal:
+    name: "Formal Jacket"
+    description: "A black blazer with a red scarf."
+body_webber_gladiator:
+    name: "Fiend's Exoskeleton"
+    description: "You don't want to know what spiders do with their prey."
+body_webber_shadow:
+    name: "Shadow Spider Body"
+    description: "The hollowed out body of an elegant black widow."
+body_webber_survivor:
+    name: "Bandaged Body"
+    description: "Spiderwebs are pretty useful for bandaging scrapes."
+body_wendy_formal:
+    name: "Party Frock"
+    description: "A cute party dress with puffed sleeves."
+body_wendy_gladiator:
+    name: "Usurper's Drapery"
+    description: "A belt of fangs suits any steadfast fighter."
+body_wendy_lureplant:
+    name: "Lureplant Costume Top"
+    description: "Look the part of an alluring Lureplant."
+body_wendy_shadow:
+    name: "Shadow Frock"
+    description: "Finally the darkness envelops you, as you always knew it would."
+body_wendy_survivor:
+    name: "Shredded Skirt"
+    description: "This skirt has had a close brush with the forces of darkness."
+body_wes_formal:
+    name: "Evening Attire"
+    description: "A fancy flowing shirt with formal trousers."
+body_wes_gladiator:
+    name: "Duelist's Armor"
+    description: "Stun your enemies into silence."
+body_wes_mandrake:
+    name: "Mandrake Costume Top"
+    description: "A Hallowed Nights costume fashioned after a delightfully annoying vegetable."
+body_wes_shadow:
+    name: "Cool Shadow Clothes"
+    description: "Dark clothes for cool people."
+body_wes_survivor:
+    name: "Threadbare Clothing"
+    description: "If these clothes could talk just imagine the stories they would tell."
+body_wickerbottom_formal:
+    name: "Ball Gown"
+    description: "Be the life of the party in this gray silk ball gown."
+body_wickerbottom_gladiator:
+    name: "Metallurgist's Robe"
+    description: "Bend the metallic elements to your will in this sleek purple robe."
+body_wickerbottom_lightninggoat:
+    name: "Volt Goat Costume Top"
+    description: "This electrifying costume will let your dress up like a cute Volt Goat!"
+body_wickerbottom_shadow:
+    name: "Shadow Gown"
+    description: "This dress is made from many shadow fragments sewn together."
+body_wickerbottom_survivor:
+    name: "Tattered Togs"
+    description: "Living outdoors may be healthy, but it's sure hard on your clothing."
+body_willow_dragonfly:
+    name: "Dragonfly Costume Top"
+    description: "Be a terrifying Dragonfly for Hallowed Nights!"
+body_willow_formal:
+    name: "Cocktail Dress"
+    description: "Everybody needs a little black dress. (Conveniently, it hides ash stains.)"
+body_willow_gladiator:
+    name: "Fighter's Tunic"
+    description: "This battle tunic screams 'warrior chic'."
+body_willow_shadow:
+    name: "Shadow Dress"
+    description: "This dress flickers as if it were on fire... If that fire were made of shadows."
+body_willow_survivor:
+    name: "Raggedy Rags"
+    description: "These clothes aren't good for anything except fueling a fire."
+body_wilson_formal:
+    name: "Tuxedo"
+    description: "Some events ask for white tie, and some ask for black tie. Well, this is red tie."
+body_wilson_gladiator:
+    name: "Forging Chestcover"
+    description: "Trimmed with the fur of felled quarry."
+body_wilson_pigguard:
+    name: "Pig Guard Costume Top"
+    description: "Dress up like an intimidating Pig Guard for Hallowed Nights!"
+body_wilson_shadow:
+    name: "Shadow Suit"
+    description: "A suit made of shadows. Quite the opposite of flashy."
+body_wilson_survivor:
+    name: "Rumpled Outfit"
+    description: "This outfit may have been attacked by weevils. Or something worse."
+body_winona_formal:
+    name: "Skirt and Blazer"
+    description: "A formal blazer and matching skirt for a sensible party gal."
+body_winona_gladiator:
+    name: "Smelter's Apron"
+    description: "An apron to wear to the sweltering fires of The Forge."
+body_winona_grassgecko:
+    name: "Grass Gekko Costume Top"
+    description: "Dress up like a cute Grass Gekko for Hallowed Nights."
+body_winona_shadow:
+    name: "Shadow Coverall"
+    description: "Blood is thicker than water. Oil is thicker than both."
+body_winona_survivor:
+    name: "Worn Workwear"
+    description: "You're just about overall this wilderness survival."
+body_wolfgang_formal:
+    name: "Mess Dress"
+    description: "Formal dinner attire for military officers."
+body_wolfgang_gladiator:
+    name: "Berserker's Chest Paint"
+    description: "Bare your mighty muscles and let your foes know what they're up against."
+body_wolfgang_shadow:
+    name: "Shadow Jumpsuit"
+    description: "These clothes put hair on your chest."
+body_wolfgang_survivor:
+    name: "Patched Bodysuit"
+    description: "Wearing fur makes you feel like mighty animal!"
+body_wolfgang_walrus:
+    name: "MacTusk Costume Top"
+    description: "Dress up as an old MacTusk for Hallowed Nights!"
+body_woodie_formal:
+    name: "Canadian Jacket"
+    description: "A real Canadian Jacket, made for real Canadians. (Not out of real Canadians.)"
+body_woodie_gladiator:
+    name: "Brawler's Harness"
+    description: "Let everyone know you're ready for a brawl with this harness."
+body_woodie_shadow:
+    name: "Shadow Feller's Kit"
+    description: "Clothes for leaping from tree to tree and eating buttered scones."
+body_woodie_survivor:
+    name: "Grubby Gear"
+    description: "Trees are great, but clothing doesn't grow on them."
+body_woodie_treeguard:
+    name: "Treeguard Costume Top"
+    description: "This Treeguard Hallowed Nights costume will really grow on you."
+body_wx78_formal:
+    name: "Formal Body Shell"
+    description: "But of course it has a cummerbund."
+body_wx78_gladiator:
+    name: "Cast Iron Chassis"
+    description: "Make sure your minions know who's top robot."
+body_wx78_rhinorook:
+    name: "Rook Costume Top"
+    description: "This Rook Hallowed Nights costume will give you a run for your money."
+body_wx78_shadow:
+    name: "Shadow Chassis"
+    description: "A dark automaton chassis with a lovely decorative gemstone."
+body_wx78_survivor:
+    name: "Battered Body Case"
+    description: "It may have seen better days, but this body is still minimally functional."
+body_yule_coat:
+    name: "Yuletide Overcoat"
+    description: "Put another log on the fire! No, seriously, it's about to go out."
+body_yule_dress:
+    name: "Yuletide Frock"
+    description: "A dashing frock for dashing through the snow!"
+book_brimstone_gilded:
+    name: "The End is Nigh, Gilded Edition"
+    description: "The lettering inside is exquisitely calligraphed."
+cane_ancient:
+    name: "Ancient Cane"
+    description: "To tread ancient paths, long forgotten."
+catcoonhat_trapper_rooster:
+    name: "Trapper Hat"
+    description: "This trapper hat is soft and cozy, but the ends don't seem to tie up anymore."
+catcoonhat_trapperup_rooster:
+    name: "Tied Trapper Hat"
+    description: "This trapper hat appears to have been permanently tied up. Luckily it looks stylish that way."
+cookpot_cauldron:
+    name: "Creepy Cauldron"
+    description: "Double, double, broil and gobble, campfire burns and crockpot bubbles!"
+cookpot_survival:
+    name: "Camping Crock Pot"
+    description: "This cooking pot looks kind of beaten up, but the food it cooks still tastes delicious."
+dragonling_bat:
+    name: "Vampire Batling"
+    description: "You'd have to be blind not to appreciate this bat's horrifying adorableness."
+dragonling_bat_builder:
+    name: "dragonling_bat_builder"
+    description: "missing description"
+dragonling_winter:
+    name: "Polar Broodling"
+    description: "This Broodling renounced its fiery ways... Now it's a lovely shade of blue!"
+dragonling_winter_builder:
+    name: "dragonling_winter_builder"
+    description: "missing description"
+dragonling_wyvern:
+    name: "Wyvernling"
+    description: "This pet's doofy lil dragon face inspires both fear and wuv."
+dragonling_wyvern_builder:
+    name: "dragonling_wyvern_builder"
+    description: "missing description"
+emoji_arcane:
+    name: "Magic Skull"
+    description: "Make chatting a little more magical. Type :arcane: in chat to use this emoticon."
+emoji_beefalo:
+    name: "Beefalo"
+    description: "A cute beefalo face brightens any conversation. Type :beefalo: in chat to use this emoticon."
+emoji_chest:
+    name: "Chest"
+    description: "For conversations where you need to get something off your chest. Type :chest: in chat to use this emoticon."
+emoji_chester:
+    name: "Chester"
+    description: "A loyal friend makes a great addition to any chat. Type :chester: in chat to use this emoticon."
+emoji_crockpot:
+    name: "Crockpot"
+    description: "Use this emoticon to let others know what's for dinner. Type :crockpot: in chat to use this emoticon."
+emoji_eyeball:
+    name: "Deerclops Eye"
+    description: "Keep an eye on chat with this eyeball emoticon. Type :eyeball: in chat to use this emoticon."
+emoji_faketeeth:
+    name: "Second-hand Dentures"
+    description: "Some people are just chatterboxes. Type :faketeeth: in chat to use this emoticon."
+emoji_farm:
+    name: "Farm"
+    description: "This farm emoticon is sure to cultivate excellent conversation. Type :farm: in chat to use this emoticon."
+emoji_fire:
+    name: "Fire"
+    description: "Ignite conversation with this fire emoticon. Type :fire: in chat to use this emoticon."
+emoji_ghost:
+    name: "Ghost"
+    description: "Bring a touch of the supernatural to chat. Type :ghost: in chat to use this emoticon."
+emoji_grave:
+    name: "Grave"
+    description: "This emoticon is suited to even the gravest of conversation topics. Type :grave: in chat to use this emoticon."
+emoji_hambat:
+    name: "Ham Bat"
+    description: "Go ham in chat with this ham bat emoticon. Type :hambat: in chat to use this emoticon."
+emoji_hammer:
+    name: "Hammer"
+    description: "A hammer chat emoticon is sure to drive any point home. Type :hammer: in chat to use this emoticon."
+emoji_heart:
+    name: "Heart"
+    description: "Show everyone you care with this heart emoticon. Type :heart: in chat to use this emoticon."
+emoji_hunger:
+    name: "Hungry Stomach"
+    description: "Let your friends in chat know you're feeling a bit peckish. Type :hunger: in chat to use this emoticon."
+emoji_lightbulb:
+    name: "Lightbulb"
+    description: "Illuminate conversations with this lightbulb emoticon. Type :lightbulb: in chat to use this emoticon."
+emoji_pig:
+    name: "Pigman"
+    description: "Chatting's never a boar with this pigman emoticon. Type :pig: in chat to use this emoticon."
+emoji_poop:
+    name: "Poop"
+    description: "Some emotions are simply best expressed through manure. Type :poop: in chat to use this emoticon."
+emoji_redgem:
+    name: "Red Gem"
+    description: "Let someone know you think they're a gem. Type :redgem: in chat to use this emoticon."
+emoji_sanity:
+    name: "Sanity Brain"
+    description: "It'd be insane not to use this brain emoticon in chat. Type :sanity: in chat to use this emoticon."
+emoji_sciencemachine:
+    name: "Science Machine"
+    description: "Let everyone in chat know it's time for science. Type :sciencemachine: in chat to use this emoticon."
+emoji_skull:
+    name: "Skull"
+    description: "Abandon all hope ye who enter chat. Type :skull: in chat to use this emoticon."
+emoji_tophat:
+    name: "Tophat"
+    description: "Class up any conversation with this top hat emoticon. Type :tophat: in chat to use this emoticon."
+emoji_web:
+    name: "Spider Web"
+    description: "Get tangled up in conversation with this spider web emoticon. Type :web: in chat to use this emoticon."
+emote_dance_chicken:
+    name: "Chicken Dance Emote"
+    description: "Type /chicken to do a chicken dance!"
+emote_dance_robot:
+    name: "Robot Dance Emote"
+    description: "Type /robot to do the robot!"
+emote_dance_step:
+    name: "Step Dance Emote"
+    description: "Type /step to perform a step dance."
+emote_fistshake:
+    name: "Fist Shake Emote"
+    description: "Type /fistshake to show your frustration."
+emote_flex:
+    name: "Flex Emote"
+    description: "Type /flex to flex your muscle!"
+emote_impatient:
+    name: "Impatient Emote"
+    description: "Type /impatient to tap your foot impatiently."
+emote_jumpcheer:
+    name: "Cheer Emote"
+    description: "Type /cheer to do a big cheer!"
+emote_laugh:
+    name: "Laugh Emote"
+    description: "Type /laugh to laugh."
+emote_shrug:
+    name: "Shrug Emote"
+    description: "Type /shrug to shrug. Meh."
+emote_sleepy:
+    name: "Sleepy Emote"
+    description: "Type /sleepy to rub your groggy eyes."
+emote_slowclap:
+    name: "Slow Clap Emote"
+    description: "Type /slowclap to express your disapproval."
+emote_swoon:
+    name: "Swoon Emote"
+    description: "Type /swoon to fall into a deep swoon."
+emote_yawn:
+    name: "Yawn Emote"
+    description: "Type /yawn to let everyone know you're ready for an adorable nap!"
+endtable_carpet:
+    name: "Austere Endtable"
+    description: "A table that would be a truly elegant addition to any unkempt wilderness base."
+endtable_dragonfly:
+    name: "Dragonfly Endtable"
+    description: "An endtable inspired by the most opulent of bloodthirsty monsters."
+endtable_vintage:
+    name: "Antique Endtable"
+    description: "A quaint decorative table that would make your grandmother proud."
+feet_bootie_black_scribble:
+    name: "Booties"
+    description: "A pair of 'scribble black' colored boot devices."
+feet_bunnyslippers_purple_mauve:
+    name: "Bunny Slippers"
+    description: "Show those bunnies what's what by wearing this pair of fuzzy 'snail mucus purple' colored bunny slippers."
+feet_fleece_boot_brown_sepia:
+    name: "Canadian Boots"
+    description: "Infused with maple syrup and essence of moose. This pair is a tasteful 'werebeaver brown' color."
+feet_formal_highheel_white_pure:
+    name: "Pumps"
+    description: "Dress to the nines in these 'pure white' colored shoes."
+feet_formal_lowheel_black_scribble:
+    name: "Low Heels"
+    description: "Low-heeled 'scribble black' colored dress shoes."
+feet_formal_stiletto_black_scribble:
+    name: "High Heels"
+    description: "High-heeled 'scribble black' colored dress shoes."
+feet_fuzzyslippers_blue_ice:
+    name: "Fuzzy Slippers"
+    description: "Warm, fuzzy, 'anthropomorphic feline blue' colored slippers. A spot of cheer in a hostile world."
+feet_maryjanes_white_pure:
+    name: "Mary Janes"
+    description: "Hit the jackpot with these classic 'pure white' colored Mary Janes."
+feet_ridingboot_white_pure:
+    name: "Riding Boots"
+    description: "A pair of 'pure white' colored riding boots. Yee-haw!"
+feet_sandals_blue_catcoon:
+    name: "Sandals"
+    description: "A pair of 'catcoon blue' colored sandals, with socks (for extra fashion)."
+feet_slippers_rooster_white_pure:
+    name: "Clucky Slippers"
+    description: "Slip your feet into some fluffy, comfy chicken slippers."
+feet_sneakers_blue_catcoon:
+    name: "Sneakers"
+    description: "Wear these 'catcoon blue' colored sneakers surreptitiously."
+feet_sneakers_green_cactus:
+    name: "Sneakers"
+    description: "Wear these 'cactus green' colored sneakers surreptitiously."
+feet_sneakers_orange_carrot:
+    name: "Sneakers"
+    description: "Wear these 'carrot orange' colored sneakers surreptitiously."
+feet_sneakers_red_auburn:
+    name: "Sneakers"
+    description: "Wear these 'low pH red' colored sneakers surreptitiously."
+feet_wathgrithr_gladiator:
+    name: "Battlemaster's Sandals"
+    description: "A pair of battlemaster's sandals to wear into the arena."
+feet_waxwell_gladiator:
+    name: "Alchemist's Boots"
+    description: "Powerful spells are best followed by a click of the heels."
+feet_webber_gladiator:
+    name: "Fiend's Talons"
+    description: "Freshly sharpened spider toesies, ready for a fight."
+feet_wendy_gladiator:
+    name: "Usurper's Sandals"
+    description: "A pair of fur-trimmed sandals for a usurper to wear."
+feet_wes_gladiator:
+    name: "Duelist's Sandals"
+    description: "A breathable pair of duelist's sandals to wear into the ring."
+feet_wickerbottom_gladiator:
+    name: "Metallurgist's Sandals"
+    description: "Sandals with leather tops to prevent accidental spilling of metallurgist's concoctions."
+feet_willow_gladiator:
+    name: "Fighter's Sandals"
+    description: "Thick straps make these fur-trimmed sandals sturdy and comfortable."
+feet_wilson_gladiator:
+    name: "Forging Boots"
+    description: "You were born to battle. You feel it in your soles."
+feet_winona_gladiator:
+    name: "Smelter's Boots"
+    description: "Nothing beats a pair of brass-toed boots."
+feet_wolfgang_gladiator:
+    name: "Berserker's Boots"
+    description: "Even berserkers like having warm feet."
+feet_woodie_gladiator:
+    name: "Brawler's Boots"
+    description: "A sensible pair of boots to keep you on balance in the ring."
+feet_workboot_brown_chocolate:
+    name: "Steel-Toed Boots"
+    description: "These 'insufficient chocolate brown' colored boots will protect you from stubbing your toes, but not a whole lot else."
+feet_workboot_tan_clay:
+    name: "Steel-Toed Boots"
+    description: "These 'muddy shoes tan' colored boots will protect you from stubbing your toes, but not a whole lot else."
+feet_wx78_gladiator:
+    name: "Cast Iron Boots"
+    description: "These boots were made for crushing, and that's just what they'll do."
+firepit_fanged:
+    name: "Fanged Firepit"
+    description: "Thish firepit ish made of rocksh that reshemble fangsh. What would it shay if it could shpeak?"
+firepit_hole:
+    name: "Bottomless Pit"
+    description: "Bottomless pits are the best. But bottomless pits filled with fire are even better."
+firepit_stonehenge:
+    name: "Mini Monument"
+    description: "A firepit modeled after an ancient, giant monument. Luckily, this version is sized more appropriately for humans (and human-sized entities)."
+firestaff_bee:
+    name: "Fiery Bumble Staff"
+    description: "firestaff_bee"
+firestaff_meteor:
+    name: "Infernal Fire Staff"
+    description: "This fire staff is strangely reminiscent of the Infernal Staff found in The Forge."
+flowerhat_crown:
+    name: "Feathered Wreath"
+    description: "This feather hat is so luxurious to the touch!"
+flowerhat_healing:
+    name: "Life Blossom Garland"
+    description: "This lovely wreath of Life Blossoms have lost their magic, but they still look divine."
+flowerhat_holly_wreath:
+    name: "Holly Wreath"
+    description: "A jolly holly laurel to wear on your head. How winter-y!"
+flowerhat_ribbon_wreath:
+    name: "Ribbon Wreath"
+    description: "Get in the seasonal spirit by wreathing your head in lovely ribbons!"
+flowerhat_wreath:
+    name: "Thorned Laurel"
+    description: "Laurels ought rest on you, not the other way around."
+footballhat_combathelm:
+    name: "Barbed Helmet"
+    description: "Who wouldn't be intimidated by this fearsome helm?"
+glomling_beardeddragon:
+    name: "Bearded Dragon"
+    description: "A pet as noble as he is huggable."
+glomling_beardeddragon_builder:
+    name: "glomling_beardeddragon_builder"
+    description: "missing description"
+glomling_winter:
+    name: "Snowy Glomglom"
+    description: "What a precious little snowball you are, Glomglom!"
+glomling_winter_builder:
+    name: "glomling_winter_builder"
+    description: "missing description"
+hambat_spiralcut:
+    name: "Pugna's Ham Bat"
+    description: "This ham bat was fashioned after the scepter of the great Battlemaster Pugna."
+hand_beltedgloves_brown_beaver:
+    name: "Buckled Gloves"
+    description: "'Werebeaver brown' colored gloves with a buckle on the back to help you hold it together."
+hand_beltedgloves_red_firehound:
+    name: "Buckled Gloves"
+    description: "'Firehound red' colored gloves with a buckle on the back to help you hold it together."
+hand_beltedgloves_teal_jungle:
+    name: "Buckled Gloves"
+    description: "'Jungle green' colored gloves with a buckle on the back to help you hold it together."
+hand_drivergloves_white_ivory:
+    name: "Driving Gloves"
+    description: "These 'houndbone white' colored gloves are worn by good looking people who look cool."
+hand_longgloves_green_hunters:
+    name: "Long Gloves"
+    description: "'Forest guardian green' colored gloves suitable for all types of persons, robots, and monsters."
+hand_longgloves_grey_battleship:
+    name: "Long Gloves"
+    description: "'Cumulus gray' colored gloves suitable for all types of persons, robots, and monsters."
+hand_longgloves_white_pure:
+    name: "Long Gloves"
+    description: "'Pure white' colored gloves suitable for all types of persons, robots, and monsters."
+hand_longgloves_yellow_straw:
+    name: "Long Gloves"
+    description: "'Sulfuric yellow' colored gloves suitable for all types of persons, robots, and monsters."
+hand_shortgloves_black_scribble:
+    name: "Hand Covers"
+    description: "These are gloves. They cover your hands. This pair is 'scribble black' colored."
+hand_shortgloves_blue_cornflower:
+    name: "Hand Covers"
+    description: "These are gloves. They cover your hands. This pair is 'rubber glove blue' colored."
+hand_shortgloves_red_higgsbury:
+    name: "Hand Covers"
+    description: "These are gloves. They cover your hands. This pair is 'Higgsbury red' colored."
+hand_shortgloves_white_smoke:
+    name: "Hand Covers"
+    description: "These are gloves. They cover your hands. This pair is 'smoke white' colored."
+hand_wathgrithr_gladiator:
+    name: "Battlemaster's Gauntlets"
+    description: "These fists are ready for glorious battle."
+hand_waxwell_formal:
+    name: "Striking Gloves"
+    description: "White gloved hands are sometimes a symbol of deception. They're also a symbol of fashion!"
+hand_waxwell_gladiator:
+    name: "Alchemist's Handwraps"
+    description: "The handwraps of an alchemist, skilled at battle."
+hand_webber_gladiator:
+    name: "Fiend's Claws"
+    description: "Perhaps after battle you could take up decorative hedge trimming."
+hand_wendy_gladiator:
+    name: "Usurper's Handwraps"
+    description: "These handwraps are imbued with a quiet ferocity."
+hand_wes_gladiator:
+    name: "Duelist's Hand Covers"
+    description: "A light gauntlet design for an expert duelist."
+hand_wickerbottom_gladiator:
+    name: "Metallurgist's Handwraps"
+    description: "A thin strip of cloth to protect your caster's hands."
+hand_willow_gladiator:
+    name: "Fighter's Bracers"
+    description: "A fine leather set of bracers to wear into battle."
+hand_wilson_formal:
+    name: "Tuxedo Gloves"
+    description: "These gloves will hide the chemical stains on your hands when you dress up for formal occasions."
+hand_wilson_gladiator:
+    name: "Forging Bracers"
+    description: "These bracers will help you look the part in the arena."
+hand_winona_gladiator:
+    name: "Smelter's Gloves"
+    description: "Any pair of gloves can be improved by brass plating."
+hand_wolfgang_gladiator:
+    name: "Berserker's Hand Paint"
+    description: "Your mighty fists need no armor, only slight embellishment."
+hand_woodie_gladiator:
+    name: "Brawler's Knucklewraps"
+    description: "These leather gloves have small holes cut in them for the knuckles to show through."
+hand_wx78_gladiator:
+    name: "Cast Iron Fists"
+    description: "Make them regret falling into your metallic clutches."
+hat_catcoon_costume:
+    name: "Catty Costume Cap"
+    description: "Is that really a cap with a catcoon's face? You've gotta be kitten me!"
+hat_chester_costume:
+    name: "Cheeky Chester Cap"
+    description: "They say that imitation is the sincerest form of flattery."
+hat_glommer_costume:
+    name: "Glommy Head Guise"
+    description: "The goopiness inside the rim makes it glom to your head that much better!"
+hat_hutch_costume:
+    name: "Hutch Head Disguise"
+    description: "It's a Hutch hatch, for your head!"
+icestaff_bee:
+    name: "Icy Bumble Staff"
+    description: "icestaff_bee"
+kitten_winter:
+    name: "Snowkit"
+    description: "Did this Kittykit just get cuter? (How's that even possible?!)"
+kitten_winter_builder:
+    name: "kitten_winter_builder"
+    description: "missing description"
+lamb_winter:
+    name: "Snowflake Ewelet"
+    description: "Winter doesn't seem quite as cold when you have a fleecy Ewelet by your side."
+lamb_winter_builder:
+    name: "lamb_winter_builder"
+    description: "missing description"
+legs_checkered_pleats_blue_cornflower:
+    name: "Checkered Trousers"
+    description: "These 'rubber glove blue' colored pants are perfect for playing checkers, or checking items off your to-do list."
+legs_checkered_pleats_green_laurel:
+    name: "Checkered Trousers"
+    description: "These 'willful green' colored pants are perfect for playing checkers, or checking items off your to-do list."
+legs_pants_basic_black_scribble:
+    name: "Pants"
+    description: "Wearing these 'scribble black' colored pants won't help you survive... But you'll look great!"
+legs_pants_basic_brown_sepia:
+    name: "Pants"
+    description: "Wearing these 'werebeaver brown' colored pants won't help you survive... But you'll look great!"
+legs_pants_basic_green_forest:
+    name: "Pants"
+    description: "Wearing these 'forest guardian green' colored pants won't help you survive... But you'll look great!"
+legs_pants_basic_grey_dark:
+    name: "Pants"
+    description: "Wearing these 'stormcloud gray' colored pants won't help you survive... But you'll look great!"
+legs_pants_basic_tan_cream:
+    name: "Pants"
+    description: "Wearing these 'no-tan-lines tan' colored pants won't help you survive... But you'll look great!"
+legs_pj_blue_agean:
+    name: "Jammie Pants"
+    description: "No striped pajama squid were harmed in the making of these 'high pH blue' colored naptime pants."
+legs_pj_purple_mauve:
+    name: "Jammie Pants"
+    description: "No striped pajama squid were harmed in the making of these 'snail mucus purple' colored naptime pants."
+legs_skirt_basic_black_scribble:
+    name: "Skirt"
+    description: "Wearing this 'scribble black' colored skirt won't help you survive... But you'll look great!"
+legs_skirt_basic_brown_sepia:
+    name: "Skirt"
+    description: "Wearing this 'werebeaver brown' colored skirt won't help you survive... But you'll look great!"
+legs_skirt_basic_grey_dark:
+    name: "Skirt"
+    description: "Wearing this 'stormcloud gray' colored skirt won't help you survive... But you'll look great!"
+legs_skirt_basic_pink_pigman:
+    name: "Skirt"
+    description: "Wearing this 'pigman pink' colored skirt won't help you survive... But you'll look great!"
+legs_skirt_basic_tan_cream:
+    name: "Skirt"
+    description: "Wearing this 'no-tan-lines tan' colored skirt won't help you survive... But you'll look great!"
+legs_skirt_plaid_blue_cornflower:
+    name: "Plaid Skirt"
+    description: "This 'rubber glove blue' colored skirt isn't a proper kilt, but you feel vaguely Scottish anyway."
+legs_skirt_plaid_green_pistachio:
+    name: "Plaid Skirt"
+    description: "This 'science experiment green' colored skirt isn't a proper kilt, but you feel vaguely Scottish anyway."
+legs_tweed_knickerbocker_green_hunters:
+    name: "Knee Pants"
+    description: "Enjoy a knickerbocker glory in these 'forest guardian green' colored knickerbockers."
+legs_tweed_knickerbocker_tan_grass:
+    name: "Knee Pants"
+    description: "Enjoy a knickerbocker glory in these 'dry grass tan' colored knickerbockers."
+legs_wathgrithr_gladiator:
+    name: "Battlemaster's Legguards"
+    description: "They'll never see your powerful kicks coming."
+legs_waxwell_gladiator:
+    name: "Alchemist's Robe Bottom"
+    description: "The preferred armor of the deadly alchemist."
+legs_willow_gladiator:
+    name: "Fighter's Pteruges"
+    description: "A decorative leather skirt for a fiery fighter."
+legs_wilson_gladiator:
+    name: "Forging Leggings"
+    description: "A pair of fur-trimmed leggings and a broad leather belt."
+legs_winona_gladiator:
+    name: "Smelter's Trousers"
+    description: "Breathable trousers to withstand the sweltering heat of The Forge."
+legs_wolfgang_gladiator:
+    name: "Berserker's Belt"
+    description: "Berserkers have no need of pants!"
+legs_woodie_gladiator:
+    name: "Brawler's Leggings"
+    description: "A pair of battle leggings with a studded leather belt."
+legs_wx78_gladiator:
+    name: "Cast Iron Legs"
+    description: "This backplate was cast in the fires of The Forge."
+loading_maxwell:
+    name: "Maxwell"
+    description: "Maxwell's extended reign on the Nightmare Throne altered him in ways that are not yet fully understood. He continues to rely heavily on his tome, the Codex Umbra, as a result."
+loading_merm:
+    name: "Merm"
+    description: "Merms inhabited the marshes of The Constant long before humans, and will probably exist long after."
+loading_pigking:
+    name: "Pig King"
+    description: "Legend has it the Pig King and his followers left their home long ago to rule freely in The Constant."
+loading_webber:
+    name: "Webber"
+    description: "Webber could have easily seen his unique predicament as an affliction or a curse. Instead, he's chosen to view it as a second chance, and one that he fully intends not to waste."
+loading_wendy:
+    name: "Wendy"
+    description: "Wendy clings fiercely to the grief over her sister's death, for fear that moving on would cause Abigail's memory to fade."
+loading_wickerbottom:
+    name: "Wickerbottom"
+    description: "Delightfully, Ms. Wickerbottom has found her passion for the written word has only deepened as the years go by. Any knowledge committed to paper becomes impervious to the brain fogs of age, you know!"
+loading_wigfrid:
+    name: "Wigfrid"
+    description: "The valor and confidence of a Valkyrie didn't always come naturally to Wigfrid. She cultivated her strength and persona over many years through sheer force of will."
+loading_willowfire:
+    name: "Willow"
+    description: "Willow always regarded being brought to The Constant as a new beginning. It allowed her to leave everything behind, after all."
+loading_wolfgang:
+    name: "Wolfgang"
+    description: "Whether in troupes or troops, Wolfgang has always thrived on the spirit of camaraderie. He considers the day he joined the survivors to be the moment his luck finally took a turn for the better."
+minerhat_floppy:
+    name: "Frilly Headlamp"
+    description: "minerhat_floppy"
+missing:
+    name: "Thingamabob"
+    description: "This item completely mystifies you."
+mysterybox_lava_4:
+    name: "Pugna's War Chest"
+    description: "This chest contains 4x Forge Event curios."
+none:
+    name: "Default"
+    description: "Your usual look."
+orangestaff_ancient:
+    name: "The Ancient Explorer"
+    description: "orangestaff_ancient"
+pack_gladiator_all:
+    name: "All Survivors Forge Chest"
+    description: "This Forge Chest contains every survivor's complete set of Gladiator skin items."
+pack_gladiator_wathgrithr:
+    name: "Wigfrid Forge Chest"
+    description: "This Forge Chest contains Wigfrid's complete set of Gladiator skin items."
+pack_gladiator_waxwell:
+    name: "Maxwell Forge Chest"
+    description: "This Forge Chest contains Maxwell's complete set of Gladiator skin items."
+pack_gladiator_webber:
+    name: "Webber Forge Chest"
+    description: "This Forge Chest contains Webber's complete set of Gladiator skin items."
+pack_gladiator_wendy:
+    name: "Wendy Forge Chest"
+    description: "This Forge Chest contains Wendy's complete set of Gladiator skin items."
+pack_gladiator_wes:
+    name: "Wes Forge Chest"
+    description: "This Forge Chest contains Wes' complete set of Gladiator skin items."
+pack_gladiator_wickerbottom:
+    name: "Wickerbottom Forge Chest"
+    description: "This Forge Chest contains Wickerbottom's complete set of Gladiator skin items."
+pack_gladiator_willow:
+    name: "Willow Forge Chest"
+    description: "This Forge Chest contains Willow's complete set of Gladiator skin items."
+pack_gladiator_wilson:
+    name: "Wilson Forge Chest"
+    description: "This Forge Chest contains Wilson's complete set of Gladiator skin items."
+pack_gladiator_winona:
+    name: "Winona Forge Chest"
+    description: "This Forge Chest contains Winona's complete set of Gladiator skin items."
+pack_gladiator_wolfgang:
+    name: "Wolfgang Forge Chest"
+    description: "This Forge Chest contains Wolfgang's complete set of Gladiator skin items."
+pack_gladiator_woodie:
+    name: "Woodie Forge Chest"
+    description: "This Forge Chest contains Woodie's complete set of Gladiator skin items."
+pack_gladiator_wx78:
+    name: "WX-78 Forge Chest"
+    description: "This Forge Chest contains WX-78's complete set of Gladiator skin items."
+perdling_rooster:
+    name: "Rooslet"
+    description: "If you wanted a bouncy rooster companion by your side, then you're in cluck!"
+perdling_rooster_builder:
+    name: "perdling_rooster_builder"
+    description: "missing description"
+playerportrait_bg_beefalo:
+    name: "Beefalo Portrait"
+    description: "Equip this item to change your character's background portrait."
+playerportrait_bg_birchnut:
+    name: "Birchnut Forest Portrait"
+    description: "Equip this item to change your character's background portrait."
+playerportrait_bg_camp:
+    name: "Campsite Portrait"
+    description: "Equip this item to change your character's background portrait."
+playerportrait_bg_cardinals:
+    name: "Cardinal Portrait"
+    description: "Equip this item to change your character's background portrait."
+playerportrait_bg_deciduousforest:
+    name: "Autumn Birchnut Portrait"
+    description: "Equip this item to change your character's background portrait."
+playerportrait_bg_flames:
+    name: "Flame Portrait"
+    description: "Equip this item to change your character's background portrait."
+playerportrait_bg_forestfire:
+    name: "Forest Fire Portrait"
+    description: "Equip this item to change your character's background portrait. This forest was apparently visited by Willow in recent times."
+playerportrait_bg_garden:
+    name: "Farmland Portrait"
+    description: "Equip this item to change your character's background portrait."
+playerportrait_bg_grasslands:
+    name: "Grassland Portrait"
+    description: "Equip this item to change your character's background portrait."
+playerportrait_bg_lava:
+    name: "Molten Lava Portrait"
+    description: "Equip this item to change your character's background portrait."
+playerportrait_bg_lavaarena:
+    name: "The Forge Portrait"
+    description: "Equip this item to change your character's background portrait. The Forge is a harsh dimension of molten lava where only the toughest survive. When the survivors activated the Ancient Gateway, they mistakenly reconnected this dimension to their own."
+playerportrait_bg_lonecarrot:
+    name: "Lone Carrot Portrait"
+    description: "This background portrait depicts a single carrot. Just one."
+playerportrait_bg_lumpyevergreen:
+    name: "Lumpy Tree Portrait"
+    description: "Equip this item to change your character's background portrait."
+playerportrait_bg_marshhouse:
+    name: "Mermhouse Portrait"
+    description: "Equip this item to change your character's background portrait."
+playerportrait_bg_penguins:
+    name: "Pengull Portrait"
+    description: "Equip this item to change your character's background portrait. Pengulls live almost year-round at sea, only returning to the shore during winter to nest."
+playerportrait_bg_pighouse:
+    name: "Pig House Portrait"
+    description: "Equip this item to change your character's background portrait. Pigmen can be deceptively handy, under the right circumstances."
+playerportrait_bg_rocks:
+    name: "Rockland Portrait"
+    description: "Equip this item to change your character's background portrait."
+playerportrait_bg_roseportal:
+    name: "Florid Postern Portrait"
+    description: "Equip this item to change your character's background portrait. Wilson and Maxwell constructed the first prototype of the Florid Postern, connecting the survivors' dimensions and allowing them to band together."
+playerportrait_bg_shoreline:
+    name: "Shoreline Portrait"
+    description: "Equip this item to change your character's background portrait."
+playerportrait_bg_spidermarsh:
+    name: "Spider Nest Portrait"
+    description: "Equip this item to change your character's background portrait."
+playerportrait_bg_spikymarsh:
+    name: "Spiky Tree Portrait"
+    description: "Equip this item to change your character's background portrait. Spiders are vicious creatures that can survive nearly any climate."
+playerportrait_bg_thickforest:
+    name: "Forest Portrait"
+    description: "Equip this item to change your character's background portrait."
+profileflair_abigail_flower:
+    name: "Abby's Flower"
+    description: "Set your profile icon to Abigail's flower. Abigail's flower is Wendy's only remaining keepsake of her departed sister."
+profileflair_babybeefalo:
+    name: "Baby Beef"
+    description: "Set your profile icon to a baby beefalo."
+profileflair_bat_furled:
+    name: "Grouchy Bat"
+    description: "Set your profile icon to a furled up batilisk."
+profileflair_bearger_roar:
+    name: "Grumpy Bearger"
+    description: "Set your profile icon to an angry bearger."
+profileflair_beefalo:
+    name: "Beefalo"
+    description: "Set your profile icon to a big beefalo."
+profileflair_bernie:
+    name: "Bernie"
+    description: "Set your profile icon to Bernie the Bear. Bernie's never abandoned Willow, and she plans to always return the favor."
+profileflair_bishop:
+    name: "Clockwork Bishop"
+    description: "Set your profile icon to a clockwork bishop. Maxwell produced many Clockwork Bishops during his reign on the Shadow Throne."
+profileflair_catcoon:
+    name: "Catcoon"
+    description: "Set your profile icon to a cute catcoon."
+profileflair_chester:
+    name: "Chester"
+    description: "Set your profile icon to a Chester. Chester is survivor's best friend."
+profileflair_crow:
+    name: "Black Crow"
+    description: "Set your profile icon to a crow."
+profileflair_cupcake:
+    name: "Cupcake"
+    description: "Set your profile icon to a tasty cupcake."
+profileflair_deerclops:
+    name: "Deerclops"
+    description: "Set your profile icon to a furious Deerclops."
+profileflair_dragonfly_sleeping:
+    name: "Sleepy Dragonfly"
+    description: "Set your profile icon to a sleepy Dragonfly."
+profileflair_dragonfruit:
+    name: "Dragon Fruit"
+    description: "Set your profile icon to a tasty dragon fruit."
+profileflair_frog:
+    name: "Froggy"
+    description: "Set your profile icon to a frog."
+profileflair_goosemoose:
+    name: "Moose/Goose"
+    description: "Set your profile icon to a Goose. Or Moose. Or both."
+profileflair_hound:
+    name: "Hound"
+    description: "Set your profile icon to a hound."
+profileflair_knight:
+    name: "Clockwork Knight"
+    description: "Set your profile icon to a clockwork knight. Maxwell produced many Clockwork Knights during his reign on the Shadow Throne."
+profileflair_koalefant:
+    name: "Koalefant"
+    description: "Set your profile icon to a skittish koalefant."
+profileflair_krampus:
+    name: "Krampus"
+    description: "Set your profile icon to Krampus. The Krampus is compelled to visit all naughty denizens of The Constant."
+profileflair_mactusk:
+    name: "MacTusk"
+    description: "Set your profile icon to a MacTusk."
+profileflair_mandrake:
+    name: "Mandrake"
+    description: "Set your profile icon to squeaky mandrake. 'MEEP!'"
+profileflair_merm:
+    name: "Merm"
+    description: "Set your profile icon to a merm."
+profileflair_mole:
+    name: "Moleworm"
+    description: "Set your profile icon to a moleworm."
+profileflair_nightlight:
+    name: "Night Light"
+    description: "Set your profile icon to a burning Night Light."
+profileflair_pengull:
+    name: "Pengull"
+    description: "Set your profile icon to a pengull."
+profileflair_phonograph:
+    name: "Wretched Gramophone"
+    description: "Set your profile icon to a nightmarish gramophone. It only plays one song."
+profileflair_pig_happy:
+    name: "Happy Pigman"
+    description: "Set your profile icon to a pigman. Most pigmen are amicable to the idea of teaming up, once they've been shown a bit of kindness."
+profileflair_pigking:
+    name: "The Pig King"
+    description: "Set your profile icon to the Pig King. The Pig King has vast riches and can be persuaded to share them, should someone find something to pique his interest."
+profileflair_pumpkinlantern:
+    name: "Spooky Pumpkin Lantern"
+    description: "Set your profile icon to a pumpkin lantern."
+profileflair_rabbit:
+    name: "Rabbit"
+    description: "Set your profile icon to a rabbit."
+profileflair_rook:
+    name: "Clockwork Rook"
+    description: "Set your profile icon to a clockwork rook. Maxwell produced many Clockwork Rooks during his reign on the Shadow Throne."
+profileflair_rose:
+    name: "Red Rose"
+    description: "Set your profile icon to a rose flower. Few things are as timeless as a red rose."
+profileflair_shadowhand:
+    name: "Night Hand"
+    description: "Set your profile icon to a creepy night hand."
+profileflair_shadowmanipulator:
+    name: "Shadow Manipulator"
+    description: "Set your profile icon to a Shadow Manipulator."
+profileflair_smallbird:
+    name: "Smallbird"
+    description: "Set your profile icon to a tiny smallbird."
+profileflair_spider:
+    name: "Spider"
+    description: "Set your profile icon to a spider."
+profileflair_tallbird_eye:
+    name: "Tallbird Stare"
+    description: "Set your profile icon to a glaring tallbird."
+profileflair_treeguard:
+    name: "Treeguard"
+    description: "Set your profile icon to a treeguard. These lumbering spirits will rise to defend their ilk when the forest is threatened."
+profileflair_trinket_faketeeth:
+    name: "Second-hand Dentures"
+    description: "Set your profile icon to second-hand dentures."
+profileflair_trinket_gnome:
+    name: "Gnome"
+    description: "Set your profile icon to a gnome."
+profileflair_trinket_gnomette:
+    name: "Gnomette"
+    description: "Set your profile icon to a gnome."
+profileflair_waffle:
+    name: "Waffles!"
+    description: "Set your profile icon to some tasty waffles. Part of a balanced breakfast."
+profileflair_werepig_howl:
+    name: "Werepig"
+    description: "Set your profile icon to a howling werepig."
+profileflair_wererabbit:
+    name: "Friendly Bunnyman"
+    description: "Set your profile icon to a grinning bunnyman. Bunnymen make their homes deep in the caverns of The Constant."
+puppy_winter:
+    name: "Arctic Vargling"
+    description: "Looks like this adorable little lump grew his winter coat in. Good boy, Vargling!"
+puppy_winter_builder:
+    name: "puppy_winter_builder"
+    description: "missing description"
+rainhat_floppy:
+    name: "Floppy Rain Hat"
+    description: "rainhat_floppy"
+researchlab2_pod:
+    name: "Alchemy Pod"
+    description: "This pod uses space-age printing technology to perform unspace-age alchemy. How stylish!"
+researchlab2_pod_alt:
+    name: "Alchemy Pod"
+    description: "This pod uses space-age printing technology to perform unspace-age alchemy. How stylish!"
+researchlab4_catcoon_costume:
+    name: "Presticatator"
+    description: "researchlab4_catcoon_costume"
+researchlab4_chester_costume:
+    name: "Chestihatator"
+    description: "researchlab4_chester_costume"
+researchlab4_derby:
+    name: "Prestibowlerhatator"
+    description: "researchlab4_derby"
+researchlab4_festive_bell_red_firehound:
+    name: "Jingly Prestihatator"
+    description: "researchlab4_festive_bell_red_firehound"
+researchlab4_glommer_costume:
+    name: "Prestihataglommer"
+    description: "researchlab4_glommer_costume"
+researchlab4_hutch_costume:
+    name: "Prestihutchatator"
+    description: "researchlab4_hutch_costume"
+reviver_cupid:
+    name: "Cherub's Heart"
+    description: "The slings and arrows of fate have taken their toll on this poor, afflicted heart."
+spear_bee:
+    name: "Bumble Spear"
+    description: "It doesn't hit harder than a regular spear, although it certainly still stings."
+strawhat_floppy:
+    name: "Floppy Straw Hat"
+    description: "Be like a little British lady in your garden!"
+tophat_derby:
+    name: "Bowler Hat"
+    description: "Demonstrate your impeccable style with this dapper bowler hat."
+tophat_festive_bell_red_firehound:
+    name: "Jingly Tophat"
+    description: "A festive 'firehound red' colored tophat."
+torch_rag:
+    name: "Weatherbeaten Torch"
+    description: "Give your torch some visual flare with these hastily wrapped, desiccated rags. Smoky!"
+torch_shadow:
+    name: "Tragic Torch"
+    description: "At first glance this torch appears menacing, but holding it makes you feel quite sad."
+torch_shadow_alt:
+    name: "Tragic Torch"
+    description: "At first glance this torch appears menacing, but holding it makes you feel quite sad."
+torch_spooky:
+    name: "Hallowed Light"
+    description: "Repel the dark these Hallowed Nights with a dreadful beacon of most Hallowed Light."
+treasurechest_carpetbag:
+    name: "Carpet Bag"
+    description: "This bag made from luxurious carpet is the height of modern fashion!"
+treasurechest_gingerbread:
+    name: "Gingerbread Chest"
+    description: "Don't be fooled... it's completely inedible."
+treasurechest_posh:
+    name: "Treasured Chest"
+    description: "A chest worthy of storing your finest gems and treasures. Or, y'know, twigs and manure."
+treasurechest_poshprint:
+    name: "Calico Chester Chest"
+    description: "No Chesters were harmed in the making of this chest... I think."
+treasurechest_sacred:
+    name: "Ancient King's Chest"
+    description: "The history of an ancient people is locked away inside."
+treasurechest_steamertrunk:
+    name: "Steamer Trunk"
+    description: "NOTE: Doesn't steam."
+treasurechest_traincase:
+    name: "Train Case"
+    description: "Organize your foraged scraps in class and style."
+treasurechest_traveltrunk:
+    name: "Traveller's Trunk"
+    description: "Its traveling days may be over, but it'll always have the memories."
+wathgrithr_combatant:
+    name: "The Challenger"
+    description: "Wigfrid was born for the arena."
+wathgrithr_deerclops:
+    name: "Deerclops Costume"
+    description: "Deerfrid Costume Wearable for a limited time."
+wathgrithr_deerclops_d:
+    name: "Deerfrid Mask"
+    description: "Wigfrid chose to be one of her favorite foes to battle for Hallowed Nights."
+wathgrithr_formal:
+    name: "Guest of Honor"
+    description: "She resembles a Visigothic princess."
+wathgrithr_gladiator:
+    name: "The Gladiator"
+    description: "The question was never IF Wigfrid would master the ring, but when."
+wathgrithr_shadow:
+    name: "The Triumphant"
+    description: "Go to the dark side and be on top of the world."
+wathgrithr_survivor:
+    name: "The Survivor"
+    description: "A warrior cannot eat until she defeats some meat."
+waxwell_combatant:
+    name: "The Challenger"
+    description: "Maxwell believes this look to be quite intimidating."
+waxwell_formal:
+    name: "Guest of Honor"
+    description: "Against all possible odds Maxwell has become even more dapper."
+waxwell_gladiator:
+    name: "The Gladiator"
+    description: "Maxwell is both dark AND brooding."
+waxwell_krampus:
+    name: "Krampus Costume"
+    description: "Krampwell Costume Wearable for a limited time."
+waxwell_krampus_d:
+    name: "Krampwell Head"
+    description: "Maxwell deeply regrets asking the others to choose his costume for him."
+waxwell_survivor:
+    name: "The Survivor"
+    description: "This is Maxwell, the intrepid explorer."
+waxwell_unshadow:
+    name: "The Untriumphant"
+    description: "Before it all went so wrong..."
+webber_bat:
+    name: "Batilisk Costume"
+    description: "Webilisk Costume Wearable for a limited time."
+webber_bat_d:
+    name: "Webilisk Head"
+    description: "Gosh, those wings look very... real."
+webber_combatant:
+    name: "The Challenger"
+    description: "Webber's used to fending for himself."
+webber_formal:
+    name: "Guest of Honor"
+    description: "Webber takes parties seriously."
+webber_gladiator:
+    name: "The Gladiator"
+    description: "It's not wise to corner venomous spiders."
+webber_shadow:
+    name: "The Triumphant"
+    description: "Dark spiders have poisonous fangs."
+webber_survivor:
+    name: "The Survivor"
+    description: "Webber looks a little worse for the wear."
+wendy_combatant:
+    name: "The Challenger"
+    description: "If Wendy is to succumb to death, she'll do so on her own terms."
+wendy_formal:
+    name: "Guest of Honor"
+    description: "Wendy is not cheered by party games."
+wendy_gladiator:
+    name: "The Gladiator"
+    description: "Wendy's hidden ruthlessness needed only slight provocation to show itself."
+wendy_lureplant:
+    name: "Lureplant Costume"
+    description: "Wendyflower Costume Wearable for a limited time."
+wendy_lureplant_d:
+    name: "Wendyflower Head"
+    description: "Wendy quite fancies this hair color."
+wendy_shadow:
+    name: "The Triumphant"
+    description: "Wendy has always been comfortable with darkness."
+wendy_survivor:
+    name: "The Survivor"
+    description: "Wendy is actually pretty good at surviving."
+wes_combatant:
+    name: "The Challenger"
+    description: "Wes is quiet, but not meek."
+wes_formal:
+    name: "Guest of Honor"
+    description: "Formal Wes requires extra pomade."
+wes_gladiator:
+    name: "The Gladiator"
+    description: "Beware the battle mime."
+wes_mandrake:
+    name: "Mandrake Costume"
+    description: "Wesdrake Costume Wearable for a limited time."
+wes_mandrake_d:
+    name: "Wesdrake Makeup"
+    description: "What's the sound of one mandrake meeping?"
+wes_shadow:
+    name: "The Triumphant"
+    description: "The sun is too bright. It blots out the darkness."
+wes_survivor:
+    name: "The Survivor"
+    description: "Even mimes can fight if confronted with a monster."
+wickerbottom_combatant:
+    name: "The Challenger"
+    description: "Wickerbottom is not opposed to self defense, should the occasion call for it."
+wickerbottom_formal:
+    name: "Guest of Honor"
+    description: "Since Wickerbottom doesn't sleep, she can dance all night."
+wickerbottom_gladiator:
+    name: "The Gladiator"
+    description: "Wickerbottom adapted to life in the arena with grace and ease."
+wickerbottom_lightninggoat:
+    name: "Volt Goat Costume"
+    description: "Ms. Voltbottom Costume Wearable for a limited time."
+wickerbottom_lightninggoat_d:
+    name: "Ms. Voltbottom Antlers"
+    description: "An elegant costume for an elegant woman."
+wickerbottom_shadow:
+    name: "The Triumphant"
+    description: "A librarian knows how to watch from the shadows."
+wickerbottom_survivor:
+    name: "The Survivor"
+    description: "Those with knowledge are good at making do in difficult circumstances."
+willow_combatant:
+    name: "The Challenger"
+    description: "Willow was never one to be pushed around."
+willow_dragonfly:
+    name: "Dragonfly Costume"
+    description: "Willowfly Costume Wearable for a limited time."
+willow_dragonfly_d:
+    name: "Willowfly Head"
+    description: "Willow would dress like this every day if she could."
+willow_formal:
+    name: "Guest of Honor"
+    description: "Willow prefers events that include bonfires or fireworks."
+willow_gladiator:
+    name: "The Gladiator"
+    description: "Willow will reduce this ring to cinders."
+willow_shadow:
+    name: "The Triumphant"
+    description: "Willow enjoys flickering flames of inky blackness."
+willow_survivor:
+    name: "The Survivor"
+    description: "Willow is taming the wilderness with fire."
+wilson_combatant:
+    name: "The Challenger"
+    description: "This wouldn't be the first time Wilson's had to fight off a goon or two."
+wilson_formal:
+    name: "Guest of Honor"
+    description: "Formal Wilson is unhappy Wilson."
+wilson_gladiator:
+    name: "The Gladiator"
+    description: "Wilson is willing to take on any challenger."
+wilson_pigguard:
+    name: "Guard Pig Costume"
+    description: "Piggsbury Costume Wearable for a limited time."
+wilson_pigguard_d:
+    name: "Piggsbury Mask"
+    description: "Wilson usually forgets to put a costume together until the last moment. He's always busy experimenting."
+wilson_shadow:
+    name: "The Triumphant"
+    description: "Wilson has learned the science of shadows."
+wilson_survivor:
+    name: "The Survivor"
+    description: "As a scientist, Wilson is well equipped to investigate the natural world."
+winona_combatant:
+    name: "The Challenger"
+    description: "Winona came ready for a fight!"
+winona_formal:
+    name: "Guest of Honor"
+    description: "This isn't what Winona expected when she read 'Formal Assembly' on the invitation."
+winona_gladiator:
+    name: "The Gladiator"
+    description: "Winona's tough as nails and ready to throw down."
+winona_grassgecko:
+    name: "Grass Gekko Costume"
+    description: "Nona Gekko Costume Wearable for a limited time."
+winona_grassgecko_d:
+    name: "Nona Gekko Head"
+    description: "It wasn't easy for Winona to get her hair like that."
+winona_shadow:
+    name: "The Triumphant"
+    description: "No one knows the depths of Winona's dark machinations."
+winona_survivor:
+    name: "The Survivor"
+    description: "Winona's always been made of rough stuff."
+winterhat_black_davys:
+    name: "Black Winter Hat"
+    description: "A dark winter hat for the dark winter months."
+winterhat_pink_hibiscus:
+    name: "Pink Winter Hat"
+    description: "Doesn't keep your head any warmer than a regular winter hat, but gosh if it isn't just the cutest."
+winterhat_plum_pudding:
+    name: "Plum Pudding Cap"
+    description: "This plum pudding hat contains no plums. Just a bunch of raisins."
+winterhat_rooster:
+    name: "Clucky Winter Hat"
+    description: "This winter hat is strangely reminiscent of a small feathered friend."
+winterhat_stocking_cap_green_forest:
+    name: "Festive Stocking Cap"
+    description: "One might wear this 'forest guardian green' winter hat on a cozy night around a campfire. Or, hey, they might not."
+wolfgang_combatant:
+    name: "The Challenger"
+    description: "Wolfgang's no stranger to the art of pugilism."
+wolfgang_formal:
+    name: "Guest of Honor"
+    description: "Wolfgang enjoys formal dinners: the food is usually excellent."
+wolfgang_gladiator:
+    name: "The Gladiator"
+    description: "This look suits Wolfgang, and he knows it."
+wolfgang_shadow:
+    name: "The Triumphant"
+    description: "Wolfgang is even mightier than usual."
+wolfgang_survivor:
+    name: "The Survivor"
+    description: "In the wilderness, only the mighty survive."
+wolfgang_walrus:
+    name: "MacTusk Costume"
+    description: "MacWolf Costume Wearable for a limited time."
+wolfgang_walrus_d:
+    name: "MacWolf Bald Cap"
+    description: "It seems a shame to hide such luxurious hair."
+woodie_combatant:
+    name: "The Challenger"
+    description: "It's best not to mess with a man and his axe."
+woodie_formal:
+    name: "Guest of Honor"
+    description: "Woodie puts bear fat in his hair when he goes out."
+woodie_gladiator:
+    name: "The Gladiator"
+    description: "Woodie is a wild man in the arena."
+woodie_shadow:
+    name: "The Triumphant"
+    description: "The shadow realm is pretty much the same as here, just darker."
+woodie_survivor:
+    name: "The Survivor"
+    description: "Woodie looks like he's turning into a tree."
+woodie_treeguard:
+    name: "Treeguard Costume"
+    description: "Woodguard Costume Wearable for a limited time."
+woodie_treeguard_d:
+    name: "Woodguard Head"
+    description: "Woodie will have twigs stuck in his beard for weeks. Not that that's unusual."
+wx78_combatant:
+    name: "The Challenger"
+    description: "Few things get them more excited than the prospect of destroying fleshlings."
+wx78_formal:
+    name: "Guest of Honor"
+    description: "ERROR: DO NOT RECOGNIZE COMMAND 'MOUSTACHE.TWIRL'"
+wx78_gladiator:
+    name: "The Gladiator"
+    description: "WX's transformation into an organic killing machine proves all dreams are possible, if you only believe."
+wx78_rhinorook:
+    name: "Rook Costume"
+    description: "Rookiebot Costume Wearable for a limited time."
+wx78_rhinorook_d:
+    name: "Rookiebot Headplate"
+    description: "The welding on this costume took AGES."
+wx78_shadow:
+    name: "The Triumphant"
+    description: "This robot was evil before. Now they're double evil."
+wx78_survivor:
+    name: "The Survivor"
+    description: "Exposure to the elements causes corrosion."

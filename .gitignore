@@ -1,9 +1,3 @@
-# Dependencies
+/.env
+/var/
 /vendor/
-
-# Storage
-/storage/
-
-# Infrastructure
-/docker-compose.override.yml
-.env

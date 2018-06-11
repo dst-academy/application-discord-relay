@@ -1,0 +1,11 @@
+csa_guzzle:
+    profiler: '%kernel.debug%'
+    clients:
+        default:
+            lazy: true
+            config:
+                base_uri: 'https://discordapp.com/api/webhooks/'
+                options:
+                    headers:
+                        Content-Type: 'application/json'
+            middleware: ['rate_limit']

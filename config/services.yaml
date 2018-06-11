@@ -1,0 +1,30 @@
+parameters:
+    locale: '%env(APP_LOCALE)%'
+    secret: '%env(APP_SECRET)%'
+    avatar: '%env(APP_AVATAR)%'
+    events: '%env(csv:APP_EVENTS)%'
+    mapping: '%env(json:APP_MAPPING)%'
+    dictionaries: '%env(csv:APP_DICTIONARIES)%'
+
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+        public: false
+    App\:
+        resource: '../src/*'
+        exclude: '../src/{Entity,Migrations,Tests,Kernel.php}'
+    App\Command\QueueCommand:
+        arguments:
+            $mapping: '%mapping%'
+            $events: '%events%'
+    App\Utility\Formatter:
+        arguments:
+            $dictionaries: '%dictionaries%'
+    Predis\ClientInterface: '@snc_redis.default'
+    GuzzleHttp\ClientInterface: '@csa_guzzle.client.default'
+    Concat\Http\Middleware\RateLimitProvider:
+        class: App\Utility\Limiter
+    Concat\Http\Middleware\RateLimiter:
+        tags:
+            - {name: 'csa_guzzle.middleware', alias: 'rate_limit'}
