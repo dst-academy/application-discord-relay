@@ -36,7 +36,8 @@ class Converter
 
     public function convert(string $data): EventInterface
     {
-        $data = $this->parser->parse($data);
+        $data = \json_decode($data);
+        $data = $this->parser->parse($data->message);
         $class = $this->map[$data['type']];
 
         return $this->normalizer->denormalize($data, $class);
