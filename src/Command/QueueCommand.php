@@ -53,13 +53,12 @@ class QueueCommand extends EndlessCommand
 
     protected function execute(InputInterface $input, OutputInterface $output)
     {
-        if ($item = $this->retrieve()) {
-            $event = $this->convert($item['data']);
+        $item = $this->retrieve();
+        $event = $this->convert($item[1]);
 
-            if ($this->filter($event)) {
-                $message = $this->transform($event);
-                $this->transmit($item['key'], $message);
-            }
+        if ($this->filter($event)) {
+            $message = $this->transform($event);
+            $this->transmit($item[0], $message);
         }
     }
 
