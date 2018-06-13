@@ -24,6 +24,7 @@ class QueueCommand extends EndlessCommand
     private $transmitter;
     private $mapping;
     private $events;
+    private $keys;
 
     public function __construct(
         ClientInterface $queue,
@@ -38,6 +39,7 @@ class QueueCommand extends EndlessCommand
         $this->formatter = $formatter;
         $this->transmitter = $transmitter;
         $this->mapping = $mapping;
+        $this->keys = \array_keys($mapping);
         $this->events = \array_filter($events);
 
         parent::__construct();
@@ -64,8 +66,7 @@ class QueueCommand extends EndlessCommand
 
     private function retrieve(): array
     {
-        $keys = \array_keys($this->mapping);
-        return $this->queue->blpop($keys, 0);
+        return $this->queue->blpop($this->keys, 0);
     }
 
     private function filter(EventInterface $event): bool
