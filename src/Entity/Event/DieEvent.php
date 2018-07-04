@@ -7,7 +7,7 @@ use App\Entity\EventAbstract;
 class DieEvent extends EventAbstract {
     private $inflictor;
 
-    public function getInflictor(): string
+    public function getInflictor(): ?string
     {
         return $this->inflictor;
     }
